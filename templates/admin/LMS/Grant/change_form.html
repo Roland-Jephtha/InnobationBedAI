@@ -1,0 +1,40 @@
+<!-- templates/admin/yourapp/yourmodel/change_form.html -->
+
+
+{% extends "admin/change_form.html" %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <script>
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const courseTitleField = document.querySelector('#id_course_title');
+            if (courseTitleField) {
+                // Fetch suggestions from text file
+                fetch('/get_suggestions')  // Adjust the URL to your Django view
+                    .then(response => response.text())
+                    .then(data => {
+                        const suggestions = data.split('\n');
+                        const datalist = document.createElement('datalist');
+                        datalist.id = 'suggestions';
+                        suggestions.forEach(suggestion => {
+                            const option = document.createElement('option');
+                            option.value = suggestion.trim();
+                            datalist.appendChild(option);
+                        });
+                        courseTitleField.parentNode.insertBefore(datalist, courseTitleField.nextSibling);
+                        courseTitleField.setAttribute('list', 'suggestions');
+                    })
+                    .catch(error => console.error('Error fetching suggestions:', error));
+            }
+        });
+    </script>
+{% endblock %}
+
+
+
+
+
+
+
+

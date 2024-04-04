@@ -1,0 +1,69 @@
+{% extends 'dashboard/index.html' %}
+{% load static %}
+{% block content %}
+
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></span>Course Payment</h4>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="nav nav-pills flex-column flex-md-row mb-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="javascript:void(0);"> <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
+                        Make Payment</a>
+                    </li>
+                
+                  </ul>
+                  <div class="card mb-4">
+                    
+
+
+
+                    <!-- Account -->
+        
+                    <hr class="my-0" />
+                    <div class="card-body">
+                        <form method="POST" action="https://checkout.flutterwave.com/v3/hosted/pay">
+                            {% csrf_token %}
+
+                            <div>
+                            </div>
+                            <input type="hidden" name="public_key" value="FLWPUBK-132125a85ca502b4983f78ee36421b30-X" />
+                            <input type="hidden" name="customer[email]" value="{{profile.email}}" />
+                            <input type="hidden" name="customer[name]" value="{{profile.full_name}} (Sponsor)" />
+                            <input type="hidden" name="tx_ref" value="txref-81123" />
+                            <label for="">Amount: </label>
+                            <input type="number" name="amount" value="" class="form-control" required/>
+                            <input type="hidden" name="currency" value="NGN" />
+                            <input type="hidden" name="meta[source]" value="docs-html-test" />
+                            <input type="hidden" name="redirect_url" value="{{base_url}}/confirm_course_sponsor" />
+
+                            <br>
+                            <div class="mt-2">
+                                <button type="submit"  class="btn btn-primary me-2">Pay Now</button>
+
+                            </div>
+                          </form>
+                    </div>
+                    <!-- /Account -->
+                  </div>
+
+
+                </form>
+
+                </div>
+              </div>
+            </div>
+            <!-- / Content -->
+
+
+
+
+
+            {% endblock content %}

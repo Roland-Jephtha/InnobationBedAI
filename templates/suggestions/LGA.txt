@@ -1,0 +1,781 @@
+
+1	NGR	Abia 	Aba North--Abia	NULL
+2	NGR	Abia 	Aba South--Abia	NULL
+3	NGR	Abia 	Arochukwu--Abia	NULL
+4	NGR	Abia 	Bende--Abia	NULL
+5	NGR	Abia 	Ikwuano--Abia	NULL
+6	NGR	Abia 	Isiala Ngwa North--Abia	NULL
+7	NGR	Abia 	Isiala Ngwa South--Abia	NULL
+8	NGR	Abia 	Isuikwuato--Abia	NULL
+9	NGR	Abia 	Obi Ngwa--Abia	NULL
+10	NGR	Abia 	Ohafia--Abia	NULL
+11	NGR	Abia 	Osisioma--Abia	NULL
+12	NGR	Abia 	Ugwunagbo--Abia	NULL
+13	NGR	Abia 	Ukwa East--Abia	NULL
+14	NGR	Abia 	Ukwa West--Abia	NULL
+15	NGR	Abia 	Umu Nneochi--Abia	NULL
+16	NGR	Abia 	Umuahia North--Abia	NULL
+17	NGR	Abia 	Umuahia South--Abia	NULL
+18	NGR	Adamawa 	Demsa--Adamawa	NULL
+19	NGR	Adamawa 	Fufure--Adamawa	NULL
+20	NGR	Adamawa 	Ganye--Adamawa	NULL
+21	NGR	Adamawa 	Gayuk--Adamawa	NULL
+22	NGR	Adamawa 	Gombi--Adamawa	NULL
+23	NGR	Adamawa 	Grie--Adamawa	NULL
+24	NGR	Adamawa 	Hong--Adamawa	NULL
+25	NGR	Adamawa 	Jada--Adamawa	NULL
+26	NGR	Adamawa 	Larmurde--Adamawa	NULL
+27	NGR	Adamawa 	Madagali--Adamawa	NULL
+28	NGR	Adamawa 	Maiha--Adamawa	NULL
+29	NGR	Adamawa 	Mayo Belwa--Adamawa	NULL
+30	NGR	Adamawa 	Michika--Adamawa	NULL
+31	NGR	Adamawa 	Mubi North--Adamawa	NULL
+32	NGR	Adamawa 	Mubi South--Adamawa	NULL
+33	NGR	Adamawa 	Numan--Adamawa	NULL
+34	NGR	Adamawa 	Shelleng--Adamawa	NULL
+35	NGR	Adamawa 	Song--Adamawa	NULL
+36	NGR	Adamawa 	Toungo--Adamawa	NULL
+37	NGR	Adamawa 	Yola North--Adamawa	NULL
+38	NGR	Adamawa 	Yola South--Adamawa	NULL
+39	NGR	Akwa-Ibom	Abak--Akwa Ibom	NULL
+40	NGR	Akwa-Ibom	Eastern Obolo--Akwa Ibom	NULL
+41	NGR	Akwa-Ibom	Eket--Akwa Ibom	NULL
+42	NGR	Akwa-Ibom	Esit Eket--Akwa Ibom	NULL
+43	NGR	Akwa-Ibom	Essien Udim--Akwa Ibom	NULL
+44	NGR	Akwa-Ibom	Etim Ekpo--Akwa Ibom	NULL
+45	NGR	Akwa-Ibom	Etinan--Akwa Ibom	NULL
+46	NGR	Akwa-Ibom	Ibeno--Akwa Ibom	NULL
+47	NGR	Akwa-Ibom	Ibesikpo Asutan--Akwa Ibom	NULL
+48	NGR	Akwa-Ibom	Ibiono-Ibom--Akwa Ibom	NULL
+49	NGR	Akwa-Ibom	Ika--Akwa Ibom	NULL
+50	NGR	Akwa-Ibom	Ikono--Akwa Ibom	NULL
+51	NGR	Akwa-Ibom	Ikot Abasi--Akwa Ibom	NULL
+52	NGR	Akwa-Ibom	Ikot Ekpene--Akwa Ibom	NULL
+53	NGR	Akwa-Ibom	Ini--Akwa Ibom	NULL
+54	NGR	Akwa-Ibom	Itu--Akwa Ibom	NULL
+55	NGR	Akwa-Ibom	Mbo--Akwa Ibom	NULL
+56	NGR	Akwa-Ibom	Mkpat-Enin--Akwa Ibom	NULL
+57	NGR	Akwa-Ibom	Nsit-Atai--Akwa Ibom	NULL
+58	NGR	Akwa-Ibom	Nsit-Ibom--Akwa Ibom	NULL
+59	NGR	Akwa-Ibom	Nsit-Ubium--Akwa Ibom	NULL
+60	NGR	Akwa-Ibom	Obot Akara--Akwa Ibom	NULL
+61	NGR	Akwa-Ibom	Okobo--Akwa Ibom	NULL
+62	NGR	Akwa-Ibom	Onna--Akwa Ibom	NULL
+63	NGR	Akwa-Ibom	Oron--Akwa Ibom	NULL
+64	NGR	Akwa-Ibom	Oruk Anam--Akwa Ibom	NULL
+65	NGR	Akwa-Ibom	Udung-Uko--Akwa Ibom	NULL
+66	NGR	Akwa-Ibom	Ukanafun--Akwa Ibom	NULL
+67	NGR	Akwa-Ibom	Uruan--Akwa Ibom	NULL
+68	NGR	Akwa-Ibom	Urue-Offong/Oruko--Akwa Ibom	NULL
+69	NGR	Akwa-Ibom	Uyo--Akwa Ibom	NULL
+70	NGR	Anambra 	Aguata--Anambra	NULL
+71	NGR	Anambra 	Anambra East--Anambra	NULL
+72	NGR	Anambra 	Anambra West--Anambra	NULL
+73	NGR	Anambra 	Anaocha--Anambra	NULL
+74	NGR	Anambra 	Awka North--Anambra	NULL
+75	NGR	Anambra 	Awka South--Anambra	NULL
+76	NGR	Anambra 	Ayamelum--Anambra	NULL
+77	NGR	Anambra 	Dunukofia--Anambra	NULL
+78	NGR	Anambra 	Ekwusigo--Anambra	NULL
+79	NGR	Anambra 	Idemili North--Anambra	NULL
+80	NGR	Anambra 	Idemili South--Anambra	NULL
+81	NGR	Anambra 	Ihiala--Anambra	NULL
+82	NGR	Anambra 	Njikoka--Anambra	NULL
+83	NGR	Anambra 	Nnewi North--Anambra	NULL
+84	NGR	Anambra 	Nnewi South--Anambra	NULL
+85	NGR	Anambra 	Ogbaru--Anambra	NULL
+86	NGR	Anambra 	Onitsha North--Anambra	NULL
+87	NGR	Anambra 	Onitsha South--Anambra	NULL
+88	NGR	Anambra 	Orumba North--Anambra	NULL
+89	NGR	Anambra 	Orumba South--Anambra	NULL
+90	NGR	Anambra 	Oyi--Anambra	NULL
+91	NGR	Bauchi 	Alkaleri--Bauchi	NULL
+92	NGR	Bauchi 	Bauchi--Bauchi	NULL
+93	NGR	Bauchi 	Bogoro--Bauchi	NULL
+94	NGR	Bauchi 	Damban--Bauchi	NULL
+95	NGR	Bauchi 	Darazo--Bauchi	NULL
+96	NGR	Bauchi 	Dass--Bauchi	NULL
+97	NGR	Bauchi 	Gamawa--Bauchi	NULL
+98	NGR	Bauchi 	Ganjuwa--Bauchi	NULL
+99	NGR	Bauchi 	Giade--Bauchi	NULL
+100	NGR	Bauchi 	Itas/Gadau--Bauchi	NULL
+101	NGR	Bauchi 	JamaAre--Bauchi	NULL
+102	NGR	Bauchi 	Katagum--Bauchi	NULL
+103	NGR	Bauchi 	Kirfi--Bauchi	NULL
+104	NGR	Bauchi 	Misau--Bauchi	NULL
+105	NGR	Bauchi 	Ningi--Bauchi	NULL
+106	NGR	Bauchi 	Shira--Bauchi	NULL
+107	NGR	Bauchi 	Tafawa Balewa--Bauchi	NULL
+108	NGR	Bauchi 	Toro--Bauchi	NULL
+109	NGR	Bauchi 	Warji--Bauchi	NULL
+110	NGR	Bauchi 	Zaki--Bauchi	NULL
+111	NGR	Bayelsa 	Brass--Bayelsa	NULL
+112	NGR	Bayelsa 	Ekeremor--Bayelsa	NULL
+113	NGR	Bayelsa 	Kolokuma/Opokuma--Bayelsa	NULL
+114	NGR	Bayelsa 	Nembe--Bayelsa	NULL
+115	NGR	Bayelsa 	Ogbia--Bayelsa	NULL
+116	NGR	Bayelsa 	Sagbama--Bayelsa	NULL
+117	NGR	Bayelsa 	Southern Ijaw--Bayelsa	NULL
+118	NGR	Bayelsa 	Yenagoa--Bayelsa	NULL
+119	NGR	Benue 	Ado--Benue	NULL
+120	NGR	Benue 	Agatu--Benue	NULL
+121	NGR	Benue 	Apa--Benue	NULL
+122	NGR	Benue 	Buruku--Benue	NULL
+123	NGR	Benue 	Gboko--Benue	NULL
+124	NGR	Benue 	Guma--Benue	NULL
+125	NGR	Benue 	Gwer East--Benue	NULL
+126	NGR	Benue 	Gwer West--Benue	NULL
+127	NGR	Benue 	Katsina-Ala--Benue	NULL
+128	NGR	Benue 	Konshisha--Benue	NULL
+129	NGR	Benue 	Kwande--Benue	NULL
+130	NGR	Benue 	Logo--Benue	NULL
+131	NGR	Benue 	Makurdi--Benue	NULL
+132	NGR	Benue 	Obi--Benue	NULL
+133	NGR	Benue 	Ogbadibo--Benue	NULL
+134	NGR	Benue 	Ohimini--Benue	NULL
+135	NGR	Benue 	Oju--Benue	NULL
+136	NGR	Benue 	Okpokwu--Benue	NULL
+137	NGR	Benue 	Oturkpo--Benue	NULL
+138	NGR	Benue 	Tarka--Benue	NULL
+139	NGR	Benue 	Ukum--Benue	NULL
+140	NGR	Benue 	Ushongo--Benue	NULL
+141	NGR	Benue 	Vandeikya--Benue	NULL
+142	NGR	Borno 	Abadam--Borno	NULL
+143	NGR	Borno 	Askira/Uba--Borno	NULL
+144	NGR	Borno 	Bama--Borno	NULL
+145	NGR	Borno 	Bayo--Borno	NULL
+146	NGR	Borno 	Biu--Borno	NULL
+147	NGR	Borno 	Chibok--Borno	NULL
+148	NGR	Borno 	Damboa--Borno	NULL
+149	NGR	Borno 	Dikwa--Borno	NULL
+150	NGR	Borno 	Gubio--Borno	NULL
+151	NGR	Borno 	Guzamala--Borno	NULL
+152	NGR	Borno 	Gwoza--Borno	NULL
+153	NGR	Borno 	Hawul--Borno	NULL
+154	NGR	Borno 	Jere--Borno	NULL
+155	NGR	Borno 	Kaga--Borno	NULL
+156	NGR	Borno 	Kala/Balge--Borno	NULL
+157	NGR	Borno 	Konduga--Borno	NULL
+158	NGR	Borno 	Kukawa--Borno	NULL
+159	NGR	Borno 	Kwaya Kusar--Borno	NULL
+160	NGR	Borno 	Mafa--Borno	NULL
+161	NGR	Borno 	Magumeri--Borno	NULL
+162	NGR	Borno 	Maiduguri--Borno	NULL
+163	NGR	Borno 	Marte--Borno	NULL
+164	NGR	Borno 	Mobbar--Borno	NULL
+165	NGR	Borno 	Monguno--Borno	NULL
+166	NGR	Borno 	Ngala--Borno	NULL
+167	NGR	Borno 	Nganzai--Borno	NULL
+168	NGR	Borno 	Shani--Borno	NULL
+169	NGR	Cross-River	Abi--Cross River	NULL
+170	NGR	Cross-River	Akamkpa--Cross River	NULL
+171	NGR	Cross-River	Akpabuyo--Cross River	NULL
+172	NGR	Cross-River	Bakassi--Cross River	NULL
+173	NGR	Cross-River	Bekwarra--Cross River	NULL
+174	NGR	Cross-River	Biase--Cross River	NULL
+175	NGR	Cross-River	Boki--Cross River	NULL
+176	NGR	Cross-River	Calabar Municipal--Cross River	NULL
+177	NGR	Cross-River	Calabar South--Cross River	NULL
+178	NGR	Cross-River	Etung--Cross River	NULL
+179	NGR	Cross-River	Ikom--Cross River	NULL
+180	NGR	Cross-River	Obanliku--Cross River	NULL
+181	NGR	Cross-River	Obubra--Cross River	NULL
+182	NGR	Cross-River	Obudu--Cross River	NULL
+183	NGR	Cross-River	Odukpani--Cross River	NULL
+184	NGR	Cross-River	Ogoja--Cross River	NULL
+185	NGR	Cross-River	Yakuur--Cross River	NULL
+186	NGR	Cross-River	Yala--Cross River	NULL
+187	NGR	Delta 	Aniocha North--Delta	NULL
+188	NGR	Delta 	Aniocha South--Delta	NULL
+189	NGR	Delta 	Bomadi--Delta	NULL
+190	NGR	Delta 	Burutu--Delta	NULL
+191	NGR	Delta 	Ethiope East--Delta	NULL
+192	NGR	Delta 	Ethiope West--Delta	NULL
+193	NGR	Delta 	Ika North East--Delta	NULL
+194	NGR	Delta 	Ika South--Delta	NULL
+195	NGR	Delta 	Isoko North--Delta	NULL
+196	NGR	Delta 	Isoko South--Delta	NULL
+197	NGR	Delta 	Ndokwa East--Delta	NULL
+198	NGR	Delta 	Ndokwa West--Delta	NULL
+199	NGR	Delta 	Okpe--Delta	NULL
+200	NGR	Delta 	Oshimili North--Delta	NULL
+201	NGR	Delta 	Oshimili South--Delta	NULL
+202	NGR	Delta 	Patani--Delta	NULL
+203	NGR	Delta 	Sapele Delta--Delta	NULL
+204	NGR	Delta 	Udu--Delta	NULL
+205	NGR	Delta 	Ughelli North--Delta	NULL
+206	NGR	Delta 	Ughelli South--Delta	NULL
+207	NGR	Delta 	Ukwuani--Delta	NULL
+208	NGR	Delta 	Uvwie--Delta	NULL
+209	NGR	Delta 	Warri North--Delta	NULL
+210	NGR	Delta 	Warri South--Delta	NULL
+211	NGR	Delta 	Warri South West--Delta	NULL
+212	NGR	Ebonyi 	Abakaliki--Ebonyi	NULL
+213	NGR	Ebonyi 	Afikpo North--Ebonyi	NULL
+214	NGR	Ebonyi 	Afikpo South--Ebonyi	NULL
+215	NGR	Ebonyi 	Ebonyi--Ebonyi	NULL
+216	NGR	Ebonyi 	Ezza North--Ebonyi	NULL
+217	NGR	Ebonyi 	Ezza South--Ebonyi	NULL
+218	NGR	Ebonyi 	Ikwo--Ebonyi	NULL
+219	NGR	Ebonyi 	Ishielu--Ebonyi	NULL
+220	NGR	Ebonyi 	Ivo--Ebonyi	NULL
+221	NGR	Ebonyi 	Izzi--Ebonyi	NULL
+222	NGR	Ebonyi 	Ohaozara--Ebonyi	NULL
+223	NGR	Ebonyi 	Ohaukwu--Ebonyi	NULL
+224	NGR	Ebonyi 	Onicha--Ebonyi	NULL
+225	NGR	Edo 	Akoko-Edo--Edo	NULL
+226	NGR	Edo 	Egor--Edo	NULL
+227	NGR	Edo 	Esan Central--Edo	NULL
+228	NGR	Edo 	Esan North-East--Edo	NULL
+229	NGR	Edo 	Esan South-East--Edo	NULL
+230	NGR	Edo 	Esan West--Edo	NULL
+231	NGR	Edo 	Etsako Central--Edo	NULL
+232	NGR	Edo 	Etsako East--Edo	NULL
+233	NGR	Edo 	Etsako West--Edo	NULL
+234	NGR	Edo 	Igueben--Edo	NULL
+235	NGR	Edo 	Ikpoba Okha--Edo	NULL
+236	NGR	Edo 	Oredo--Edo	NULL
+237	NGR	Edo 	Orhionmwon--Edo	NULL
+238	NGR	Edo 	Ovia North-East--Edo	NULL
+239	NGR	Edo 	Ovia South-West--Edo	NULL
+240	NGR	Edo 	Owan East--Edo	NULL
+241	NGR	Edo 	Owan West--Edo	NULL
+242	NGR	Edo 	Uhunmwonde--Edo	NULL
+243	NGR	Ekiti 	Ado Ekiti--Ekiti	NULL
+244	NGR	Ekiti 	Efon--Ekiti	NULL
+245	NGR	Ekiti 	Ekiti East--Ekiti	NULL
+246	NGR	Ekiti 	Ekiti South-West--Ekiti	NULL
+247	NGR	Ekiti 	Ekiti West--Ekiti	NULL
+248	NGR	Ekiti 	Emure--Ekiti	NULL
+249	NGR	Ekiti 	Gbonyin--Ekiti	NULL
+250	NGR	Ekiti 	Ido Osi--Ekiti	NULL
+251	NGR	Ekiti 	Ijero--Ekiti	NULL
+252	NGR	Ekiti 	Ikere--Ekiti	NULL
+253	NGR	Ekiti 	Ikole--Ekiti	NULL
+254	NGR	Ekiti 	Ilejemeje--Ekiti	NULL
+255	NGR	Ekiti 	Irepodun/Ifelodun--Ekiti	NULL
+256	NGR	Ekiti 	Ise/Orun--Ekiti	NULL
+257	NGR	Ekiti 	Moba--Ekiti	NULL
+258	NGR	Ekiti 	Oye--Ekiti	NULL
+259	NGR	Enugu 	Aninri--Enugu	NULL
+260	NGR	Enugu 	Awgu--Enugu	NULL
+261	NGR	Enugu 	Enugu East--Enugu	NULL
+262	NGR	Enugu 	Enugu North--Enugu	NULL
+263	NGR	Enugu 	Enugu South--Enugu	NULL
+264	NGR	Enugu 	Ezeagu--Enugu	NULL
+265	NGR	Enugu 	Igbo Etiti--Enugu	NULL
+266	NGR	Enugu 	Igbo Eze North--Enugu	NULL
+267	NGR	Enugu 	Igbo Eze South--Enugu	NULL
+268	NGR	Enugu 	Isi Uzo--Enugu	NULL
+269	NGR	Enugu 	Nkanu East--Enugu	NULL
+270	NGR	Enugu 	Nkanu West--Enugu	NULL
+271	NGR	Enugu 	Nsukka--Enugu	NULL
+272	NGR	Enugu 	Oji River--Enugu	NULL
+273	NGR	Enugu 	Udenu--Enugu	NULL
+274	NGR	Enugu 	Udi--Enugu	NULL
+275	NGR	Enugu 	Uzo Uwani--Enugu	NULL
+276	NGR	Gombe 	Abaji--Fct	NULL
+277	NGR	Gombe 	Bwari--Fct	NULL
+278	NGR	Gombe 	Gwagwalada--Fct	NULL
+279	NGR	Gombe 	Kuje--Fct	NULL
+280	NGR	Gombe 	Kwali--Fct	NULL
+281	NGR	Gombe 	Municipal Area Council--Fct	NULL
+282	NGR	Gombe 	Akko--Gombe	NULL
+283	NGR	Gombe 	Balanga--Gombe	NULL
+284	NGR	Gombe 	Billiri--Gombe	NULL
+285	NGR	Gombe 	Dukku--Gombe	NULL
+286	NGR	Gombe 	Funakaye--Gombe	NULL
+287	NGR	Imo 	Gombe--Gombe	NULL
+288	NGR	Imo 	Kaltungo--Gombe	NULL
+289	NGR	Imo 	Kwami--Gombe	NULL
+290	NGR	Imo 	Nafada--Gombe	NULL
+291	NGR	Imo 	Shongom--Gombe	NULL
+292	NGR	Imo 	Yamaltu/Deba--Gombe	NULL
+293	NGR	Imo 	Aboh Mbaise--Imo	NULL
+294	NGR	Imo 	Ahiazu Mbaise--Imo	NULL
+295	NGR	Imo 	Ehime Mbano--Imo	NULL
+296	NGR	Imo 	Ezinihitte--Imo	NULL
+297	NGR	Imo 	Ideato North--Imo	NULL
+298	NGR	Imo 	Ideato South--Imo	NULL
+299	NGR	Imo 	Ihitte/Uboma--Imo	NULL
+300	NGR	Imo 	Ikeduru--Imo	NULL
+301	NGR	Imo 	Isiala Mbano--Imo	NULL
+302	NGR	Imo 	Isu--Imo	NULL
+303	NGR	Imo 	Mbaitoli--Imo	NULL
+304	NGR	Imo 	Ngor Okpala--Imo	NULL
+305	NGR	Imo 	Njaba--Imo	NULL
+306	NGR	Imo 	Nkwerre--Imo	NULL
+307	NGR	Imo 	Nwangele--Imo	NULL
+308	NGR	Imo 	Obowo--Imo	NULL
+309	NGR	Imo 	Oguta--Imo	NULL
+310	NGR	Imo 	Ohaji/Egbema--Imo	NULL
+311	NGR	Imo 	Okigwe--Imo	NULL
+312	NGR	Imo 	Orlu--Imo	NULL
+313	NGR	Imo 	Orsu--Imo	NULL
+314	NGR	Jigawa 	Oru East--Imo	NULL
+315	NGR	Jigawa 	Oru West--Imo	NULL
+316	NGR	Jigawa 	Owerri Municipal--Imo	NULL
+317	NGR	Jigawa 	Owerri North--Imo	NULL
+318	NGR	Jigawa 	Owerri West--Imo	NULL
+319	NGR	Jigawa 	Unuimo--Imo	NULL
+320	NGR	Jigawa 	Auyo--Jigawa	NULL
+321	NGR	Jigawa 	Babura--Jigawa	NULL
+322	NGR	Jigawa 	Biriniwa--Jigawa	NULL
+323	NGR	Jigawa 	Birnin Kudu--Jigawa	NULL
+324	NGR	Jigawa 	Buji--Jigawa	NULL
+325	NGR	Jigawa 	Dutse--Jigawa	NULL
+326	NGR	Jigawa 	Gagarawa--Jigawa	NULL
+327	NGR	Jigawa 	Garki--Jigawa	NULL
+328	NGR	Jigawa 	Gumel--Jigawa	NULL
+329	NGR	Jigawa 	Guri--Jigawa	NULL
+330	NGR	Jigawa 	Gwaram--Jigawa	NULL
+331	NGR	Jigawa 	Gwiwa--Jigawa	NULL
+332	NGR	Jigawa 	Hadejia--Jigawa	NULL
+333	NGR	Jigawa 	Jahun--Jigawa	NULL
+334	NGR	Jigawa 	Kafin Hausa--Jigawa	NULL
+335	NGR	Jigawa 	Kaugama--Jigawa	NULL
+336	NGR	Jigawa 	Kazaure--Jigawa	NULL
+337	NGR	Jigawa 	Kiri Kasama--Jigawa	NULL
+338	NGR	Jigawa 	Kiyawa--Jigawa	NULL
+339	NGR	Jigawa 	Maigatari--Jigawa	NULL
+340	NGR	Jigawa 	Malam Madori--Jigawa	NULL
+341	NGR	Kaduna 	Miga--Jigawa	NULL
+342	NGR	Kaduna 	Ringim--Jigawa	NULL
+343	NGR	Kaduna 	Roni--Jigawa	NULL
+344	NGR	Kaduna 	Sule Tankarkar--Jigawa	NULL
+345	NGR	Kaduna 	Taura--Jigawa	NULL
+346	NGR	Kaduna 	Yankwashi--Jigawa	NULL
+347	NGR	Kaduna 	Birnin Gwari--Kaduna	NULL
+348	NGR	Kaduna 	Chikun--Kaduna	NULL
+349	NGR	Kaduna 	Giwa--Kaduna	NULL
+350	NGR	Kaduna 	Igabi--Kaduna	NULL
+351	NGR	Kaduna 	Ikara--Kaduna	NULL
+352	NGR	Kaduna 	Jaba--Kaduna	NULL
+353	NGR	Kaduna 	Jema--Kaduna	NULL
+354	NGR	Kaduna 	Kachia--Kaduna	NULL
+355	NGR	Kaduna 	Kaduna North--Kaduna	NULL
+356	NGR	Kaduna 	Kaduna South--Kaduna	NULL
+357	NGR	Kaduna 	Kagarko--Kaduna	NULL
+358	NGR	Kaduna 	Kajuru--Kaduna	NULL
+359	NGR	Kaduna 	Kaura--Kaduna	NULL
+360	NGR	Kaduna 	Kauru--Kaduna	NULL
+361	NGR	Kaduna 	Kubau--Kaduna	NULL
+362	NGR	Kaduna 	Kudan--Kaduna	NULL
+363	NGR	Kaduna 	Lere--Kaduna	NULL
+364	NGR	Kano 	Makarfi--Kaduna	NULL
+365	NGR	Kano 	Sabon Gari--Kaduna	NULL
+366	NGR	Kano 	Sanga--Kaduna	NULL
+367	NGR	Kano 	Soba--Kaduna	NULL
+368	NGR	Kano 	Zangon Kataf--Kaduna	NULL
+369	NGR	Kano 	Zaria--Kaduna	NULL
+370	NGR	Kano 	Ajingi--Kano	NULL
+371	NGR	Kano 	Albasu--Kano	NULL
+372	NGR	Kano 	Bagwai--Kano	NULL
+373	NGR	Kano 	Bebeji--Kano	NULL
+374	NGR	Kano 	Bichi--Kano	NULL
+375	NGR	Kano 	Bunkure--Kano	NULL
+376	NGR	Kano 	Dala--Kano	NULL
+377	NGR	Kano 	Dambatta--Kano	NULL
+378	NGR	Kano 	Dawakin Kudu--Kano	NULL
+379	NGR	Kano 	Dawakin Tofa--Kano	NULL
+380	NGR	Kano 	Doguwa--Kano	NULL
+381	NGR	Kano 	Fagge--Kano	NULL
+382	NGR	Kano 	Gabasawa--Kano	NULL
+383	NGR	Kano 	Garko--Kano	NULL
+384	NGR	Kano 	Garun Mallam--Kano	NULL
+385	NGR	Kano 	Gaya--Kano	NULL
+386	NGR	Kano 	Gezawa--Kano	NULL
+387	NGR	Kano 	Gwale--Kano	NULL
+388	NGR	Kano 	Gwarzo--Kano	NULL
+389	NGR	Kano 	Kabo--Kano	NULL
+390	NGR	Kano 	Kano Municipal--Kano	NULL
+391	NGR	Kano 	Karaye--Kano	NULL
+392	NGR	Kano 	Kibiya--Kano	NULL
+393	NGR	Kano 	Kiru--Kano	NULL
+394	NGR	Kano 	Kumbotso--Kano	NULL
+395	NGR	Kano 	Kunchi--Kano	NULL
+396	NGR	Kano 	Kura--Kano	NULL
+397	NGR	Kano 	Madobi--Kano	NULL
+398	NGR	Kano 	Makoda--Kano	NULL
+399	NGR	Kano 	Minjibir--Kano	NULL
+400	NGR	Kano 	Nasarawa--Kano	NULL
+401	NGR	Kano 	Rano--Kano	NULL
+402	NGR	Kano 	Rimin Gado--Kano	NULL
+403	NGR	Kano 	Rogo--Kano	NULL
+404	NGR	Kano 	Shanono--Kano	NULL
+405	NGR	Kano 	Sumaila--Kano	NULL
+406	NGR	Kano 	Takai--Kano	NULL
+407	NGR	Kano 	Tarauni--Kano	NULL
+408	NGR	Katsina 	Tofa--Kano	NULL
+409	NGR	Katsina 	Tsanyawa--Kano	NULL
+410	NGR	Katsina 	Tudun Wada--Kano	NULL
+411	NGR	Katsina 	Ungogo--Kano	NULL
+412	NGR	Katsina 	Warawa--Kano	NULL
+413	NGR	Katsina 	Wudil--Kano	NULL
+414	NGR	Katsina 	Bakori--Katsina	NULL
+415	NGR	Katsina 	Batagarawa--Katsina	NULL
+416	NGR	Katsina 	Batsari--Katsina	NULL
+417	NGR	Katsina 	Baure--Katsina	NULL
+418	NGR	Katsina 	Bindawa--Katsina	NULL
+419	NGR	Katsina 	Charanchi--Katsina	NULL
+420	NGR	Katsina 	Dan Musa--Katsina	NULL
+421	NGR	Katsina 	Dandume--Katsina	NULL
+422	NGR	Katsina 	Danja--Katsina	NULL
+423	NGR	Katsina 	Daura--Katsina	NULL
+424	NGR	Katsina 	Dutsi--Katsina	NULL
+425	NGR	Katsina 	Dutsin Ma--Katsina	NULL
+426	NGR	Katsina 	Faskari--Katsina	NULL
+427	NGR	Katsina 	Funtua--Katsina	NULL
+428	NGR	Katsina 	Ingawa--Katsina	NULL
+429	NGR	Katsina 	Jibia--Katsina	NULL
+430	NGR	Katsina 	Kafur--Katsina	NULL
+431	NGR	Katsina 	Kaita--Katsina	NULL
+432	NGR	Katsina 	Kankara--Katsina	NULL
+433	NGR	Katsina 	Kankia--Katsina	NULL
+434	NGR	Katsina 	Katsina--Katsina	NULL
+435	NGR	Katsina 	Kurfi--Katsina	NULL
+436	NGR	Katsina 	Kusada--Katsina	NULL
+437	NGR	Katsina 	MaiAdua--Katsina	NULL
+438	NGR	Katsina 	Malumfashi--Katsina	NULL
+439	NGR	Katsina 	Mani--Katsina	NULL
+440	NGR	Katsina 	Mashi--Katsina	NULL
+441	NGR	Katsina 	Matazu--Katsina	NULL
+442	NGR	Kebbi 	Musawa--Katsina	NULL
+443	NGR	Kebbi 	Rimi--Katsina	NULL
+444	NGR	Kebbi 	Sabuwa--Katsina	NULL
+445	NGR	Kebbi 	Safana--Katsina	NULL
+446	NGR	Kebbi 	Sandamu--Katsina	NULL
+447	NGR	Kebbi 	Zango--Katsina	NULL
+448	NGR	Kebbi 	Aleiro--Kebbi	NULL
+449	NGR	Kebbi 	Arewa Dandi--Kebbi	NULL
+450	NGR	Kebbi 	Argungu--Kebbi	NULL
+451	NGR	Kebbi 	Augie--Kebbi	NULL
+452	NGR	Kebbi 	Bagudo--Kebbi	NULL
+453	NGR	Kebbi 	Birnin Kebbi--Kebbi	NULL
+454	NGR	Kebbi 	Bunza--Kebbi	NULL
+455	NGR	Kebbi 	Dandi--Kebbi	NULL
+456	NGR	Kebbi 	Fakai--Kebbi	NULL
+457	NGR	Kebbi 	Gwandu--Kebbi	NULL
+458	NGR	Kebbi 	Jega--Kebbi	NULL
+459	NGR	Kebbi 	Kalgo--Kebbi	NULL
+460	NGR	Kebbi 	Koko/Besse--Kebbi	NULL
+461	NGR	Kebbi 	Maiyama--Kebbi	NULL
+462	NGR	Kebbi 	Ngaski--Kebbi	NULL
+463	NGR	Kogi 	Sakaba--Kebbi	NULL
+464	NGR	Kogi 	Shanga--Kebbi	NULL
+465	NGR	Kogi 	Suru--Kebbi	NULL
+466	NGR	Kogi 	Wasagu/Danko--Kebbi	NULL
+467	NGR	Kogi 	Yauri--Kebbi	NULL
+468	NGR	Kogi 	Zuru--Kebbi	NULL
+469	NGR	Kogi 	Adavi--Kogi	NULL
+470	NGR	Kogi 	Ajaokuta--Kogi	NULL
+471	NGR	Kogi 	Ankpa--Kogi	NULL
+472	NGR	Kogi 	Bassa--Kogi	NULL
+473	NGR	Kogi 	Dekina--Kogi	NULL
+474	NGR	Kogi 	Ibaji--Kogi	NULL
+475	NGR	Kogi 	Idah--Kogi	NULL
+476	NGR	Kogi 	Igalamela Odolu--Kogi	NULL
+477	NGR	Kogi 	Ijumu--Kogi	NULL
+478	NGR	Kogi 	Kabba/Bunu--Kogi	NULL
+479	NGR	Kogi 	Kogi--Kogi	NULL
+480	NGR	Kogi 	Lokoja--Kogi	NULL
+481	NGR	Kogi 	Mopa Muro--Kogi	NULL
+482	NGR	Kogi 	Ofu--Kogi	NULL
+483	NGR	Kogi 	Ogori/Magongo--Kogi	NULL
+484	NGR	Kwara 	Okehi--Kogi	NULL
+485	NGR	Kwara 	Okene--Kogi	NULL
+486	NGR	Kwara 	Olamaboro--Kogi	NULL
+487	NGR	Kwara 	Omala--Kogi	NULL
+488	NGR	Kwara 	Yagba East--Kogi	NULL
+489	NGR	Kwara 	Yagba West--Kogi	NULL
+490	NGR	Kwara 	Asa--Kwara	NULL
+491	NGR	Kwara 	Baruten--Kwara	NULL
+492	NGR	Kwara 	Edu--Kwara	NULL
+493	NGR	Kwara 	Ekiti, Kwara State--Kwara	NULL
+494	NGR	Kwara 	Ifelodun--Kwara	NULL
+495	NGR	Kwara 	Ilorin East--Kwara	NULL
+496	NGR	Kwara 	Ilorin South--Kwara	NULL
+497	NGR	Kwara 	Ilorin West--Kwara	NULL
+498	NGR	Kwara 	Irepodun--Kwara	NULL
+499	NGR	Kwara 	Isin--Kwara	NULL
+500	NGR	Lagos 	Kaiama--Kwara	NULL
+501	NGR	Lagos 	Moro--Kwara	NULL
+502	NGR	Lagos 	Offa--Kwara	NULL
+503	NGR	Lagos 	Oke Ero--Kwara	NULL
+504	NGR	Lagos 	Oyun--Kwara	NULL
+505	NGR	Lagos 	Pategi--Kwara	NULL
+506	NGR	Lagos 	Agege--Lagos	NULL
+507	NGR	Lagos 	Ajeromi-Ifelodun--Lagos	NULL
+508	NGR	Lagos 	Alimosho--Lagos	NULL
+509	NGR	Lagos 	Amuwo-Odofin--Lagos	NULL
+510	NGR	Lagos 	Apapa--Lagos	NULL
+511	NGR	Lagos 	Badagry--Lagos	NULL
+512	NGR	Lagos 	Epe--Lagos	NULL
+513	NGR	Lagos 	Eti Osa--Lagos	NULL
+514	NGR	Lagos 	Ibeju-Lekki--Lagos	NULL
+515	NGR	Lagos 	Ifako-Ijaiye--Lagos	NULL
+516	NGR	Lagos 	Ikeja--Lagos	NULL
+517	NGR	Lagos 	Ikorodu--Lagos	NULL
+518	NGR	Lagos 	Kosofe--Lagos	NULL
+519	NGR	Lagos 	Lagos Island--Lagos	NULL
+520	NGR	Nasarawa 	Lagos Mainland--Lagos	NULL
+521	NGR	Nasarawa 	Mushin--Lagos	NULL
+522	NGR	Nasarawa 	Ojo--Lagos	NULL
+523	NGR	Nasarawa 	Oshodi-Isolo--Lagos	NULL
+524	NGR	Nasarawa 	Shomolu--Lagos	NULL
+525	NGR	Nasarawa 	Surulere--Lagos	NULL
+526	NGR	Nasarawa 	Akwanga--Nasarawa	NULL
+527	NGR	Nasarawa 	Awe--Nasarawa	NULL
+528	NGR	Nasarawa 	Doma--Nasarawa	NULL
+529	NGR	Nasarawa 	Karu--Nasarawa	NULL
+530	NGR	Nasarawa 	Keana--Nasarawa	NULL
+531	NGR	Nasarawa 	Keffi--Nasarawa	NULL
+532	NGR	Nasarawa 	Kokona--Nasarawa	NULL
+533	NGR	Niger 	Lafia--Nasarawa	NULL
+534	NGR	Niger 	Nasarawa--Nasarawa	NULL
+535	NGR	Niger 	Nasarawa Egon--Nasarawa	NULL
+536	NGR	Niger 	Obi--Nasarawa	NULL
+537	NGR	Niger 	Toto--Nasarawa	NULL
+538	NGR	Niger 	Wamba--Nasarawa	NULL
+539	NGR	Niger 	Agaie--Niger	NULL
+540	NGR	Niger 	Agwara--Niger	NULL
+541	NGR	Niger 	Bida--Niger	NULL
+542	NGR	Niger 	Borgu--Niger	NULL
+543	NGR	Niger 	Bosso--Niger	NULL
+544	NGR	Niger 	Chanchaga--Niger	NULL
+545	NGR	Niger 	Edati--Niger	NULL
+546	NGR	Niger 	Gbako--Niger	NULL
+547	NGR	Niger 	Gurara--Niger	NULL
+548	NGR	Niger 	Katcha--Niger	NULL
+549	NGR	Niger 	Kontagora--Niger	NULL
+550	NGR	Niger 	Lapai--Niger	NULL
+551	NGR	Niger 	Lavun--Niger	NULL
+552	NGR	Niger 	Magama--Niger	NULL
+553	NGR	Niger 	Mariga--Niger	NULL
+554	NGR	Niger 	Mashegu--Niger	NULL
+555	NGR	Niger 	Mokwa--Niger	NULL
+556	NGR	Niger 	Moya--Niger	NULL
+557	NGR	Niger 	Paikoro--Niger	NULL
+558	NGR	Ogun 	Rafi--Niger	NULL
+559	NGR	Ogun 	Rijau--Niger	NULL
+560	NGR	Ogun 	Shiroro--Niger	NULL
+561	NGR	Ogun 	Suleja--Niger	NULL
+562	NGR	Ogun 	Tafa--Niger	NULL
+563	NGR	Ogun 	Wushishi--Niger	NULL
+564	NGR	Ogun 	Abeokuta North--Ogun	NULL
+565	NGR	Ogun 	Abeokuta South--Ogun	NULL
+566	NGR	Ogun 	Ado-Odo/Ota--Ogun	NULL
+567	NGR	Ogun 	Egbado North--Ogun	NULL
+568	NGR	Ogun 	Egbado South--Ogun	NULL
+569	NGR	Ogun 	Ewekoro--Ogun	NULL
+570	NGR	Ogun 	Ifo--Ogun	NULL
+571	NGR	Ogun 	Ijebu East--Ogun	NULL
+572	NGR	Ogun 	Ijebu North--Ogun	NULL
+573	NGR	Ogun 	Ijebu North East--Ogun	NULL
+574	NGR	Ogun 	Ijebu Ode--Ogun	NULL
+575	NGR	Ogun 	Ikenne--Ogun	NULL
+576	NGR	Ogun 	Imeko Afon--Ogun	NULL
+577	NGR	Ogun 	Ipokia--Ogun	NULL
+578	NGR	Ondo 	Obafemi Owode--Ogun	NULL
+579	NGR	Ondo 	Odeda--Ogun	NULL
+580	NGR	Ondo 	Odogbolu--Ogun	NULL
+581	NGR	Ondo 	Ogun Waterside--Ogun	NULL
+582	NGR	Ondo 	Remo North--Ogun	NULL
+583	NGR	Ondo 	Shagamu--Ogun	NULL
+584	NGR	Ondo 	Akoko North-East--Ondo	NULL
+585	NGR	Ondo 	Akoko North-West--Ondo	NULL
+586	NGR	Ondo 	Akoko South-East--Ondo	NULL
+587	NGR	Ondo 	Akoko South-West--Ondo	NULL
+588	NGR	Ondo 	Akure North--Ondo	NULL
+589	NGR	Ondo 	Akure South--Ondo	NULL
+590	NGR	Ondo 	Ese Odo--Ondo	NULL
+591	NGR	Ondo 	Idanre--Ondo	NULL
+592	NGR	Ondo 	Ifedore--Ondo	NULL
+593	NGR	Ondo 	Ilaje--Ondo	NULL
+594	NGR	Ondo 	Ile Oluji/Okeigbo--Ondo	NULL
+595	NGR	Ondo 	Irele--Ondo	NULL
+596	NGR	Osun 	Odigbo--Ondo	NULL
+597	NGR	Osun 	Okitipupa--Ondo	NULL
+598	NGR	Osun 	Ondo East--Ondo	NULL
+599	NGR	Osun 	Ondo West--Ondo	NULL
+600	NGR	Osun 	Ose--Ondo	NULL
+601	NGR	Osun 	Owo--Ondo	NULL
+602	NGR	Osun 	Aiyedaade--Osun	NULL
+603	NGR	Osun 	Aiyedire--Osun	NULL
+604	NGR	Osun 	Atakunmosa East--Osun	NULL
+605	NGR	Osun 	Atakunmosa West--Osun	NULL
+606	NGR	Osun 	Boluwaduro--Osun	NULL
+607	NGR	Osun 	Boripe--Osun	NULL
+608	NGR	Osun 	Ede North--Osun	NULL
+609	NGR	Osun 	Ede South--Osun	NULL
+610	NGR	Osun 	Egbedore--Osun	NULL
+611	NGR	Osun 	Ejigbo--Osun	NULL
+612	NGR	Osun 	Ife Central--Osun	NULL
+613	NGR	Osun 	Ife East--Osun	NULL
+614	NGR	Osun 	Ife North--Osun	NULL
+615	NGR	Osun 	Ife South--Osun	NULL
+616	NGR	Osun 	Ifedayo--Osun	NULL
+617	NGR	Osun 	Ifelodun--Osun	NULL
+618	NGR	Osun 	Ila--Osun	NULL
+619	NGR	Osun 	Ilesa East--Osun	NULL
+620	NGR	Osun 	Ilesa West--Osun	NULL
+621	NGR	Osun 	Irepodun--Osun	NULL
+622	NGR	Osun 	Irewole--Osun	NULL
+623	NGR	Osun 	Isokan--Osun	NULL
+624	NGR	Osun 	Iwo--Osun	NULL
+625	NGR	Osun 	Obokun--Osun	NULL
+626	NGR	Oyo 	Odo Otin--Osun	NULL
+627	NGR	Oyo 	Ola Oluwa--Osun	NULL
+628	NGR	Oyo 	Olorunda--Osun	NULL
+629	NGR	Oyo 	Oriade--Osun	NULL
+630	NGR	Oyo 	Orolu--Osun	NULL
+631	NGR	Oyo 	Osogbo--Osun	NULL
+632	NGR	Oyo 	Afijio--Oyo	NULL
+633	NGR	Oyo 	Akinyele--Oyo	NULL
+634	NGR	Oyo 	Atiba--Oyo	NULL
+635	NGR	Oyo 	Atisbo--Oyo	NULL
+636	NGR	Oyo 	Egbeda--Oyo	NULL
+637	NGR	Oyo 	Ibadan North--Oyo	NULL
+638	NGR	Oyo 	Ibadan North-East--Oyo	NULL
+639	NGR	Oyo 	Ibadan North-West--Oyo	NULL
+640	NGR	Oyo 	Ibadan South-East--Oyo	NULL
+641	NGR	Oyo 	Ibadan South-West--Oyo	NULL
+642	NGR	Oyo 	Ibarapa Central--Oyo	NULL
+643	NGR	Oyo 	Ibarapa East--Oyo	NULL
+644	NGR	Oyo 	Ibarapa North--Oyo	NULL
+645	NGR	Oyo 	Ido--Oyo	NULL
+646	NGR	Oyo 	Irepo--Oyo	NULL
+647	NGR	Oyo 	Iseyin--Oyo	NULL
+648	NGR	Oyo 	Itesiwaju--Oyo	NULL
+649	NGR	Oyo 	Iwajowa--Oyo	NULL
+650	NGR	Oyo 	Kajola--Oyo	NULL
+651	NGR	Oyo 	Lagelu--Oyo	NULL
+652	NGR	Oyo 	Ogbomosho North--Oyo	NULL
+653	NGR	Oyo 	Ogbomosho South--Oyo	NULL
+654	NGR	Oyo 	Ogo Oluwa--Oyo	NULL
+655	NGR	Oyo 	Olorunsogo--Oyo	NULL
+656	NGR	Oyo 	Oluyole--Oyo	NULL
+657	NGR	Oyo 	Ona Ara--Oyo	NULL
+658	NGR	Oyo 	Orelope--Oyo	NULL
+659	NGR	Plateau 	Ori Ire--Oyo	NULL
+660	NGR	Plateau 	Oyo--Oyo	NULL
+661	NGR	Plateau 	Oyo East--Oyo	NULL
+662	NGR	Plateau 	Saki East--Oyo	NULL
+663	NGR	Plateau 	Saki West--Oyo	NULL
+664	NGR	Plateau 	Surulere--Oyo	NULL
+665	NGR	Plateau 	Barkin Ladi--Plateau	NULL
+666	NGR	Plateau 	Bassa--Plateau	NULL
+667	NGR	Plateau 	Bokkos--Plateau	NULL
+668	NGR	Plateau 	Jos East--Plateau	NULL
+669	NGR	Plateau 	Jos North--Plateau	NULL
+670	NGR	Plateau 	Jos South--Plateau	NULL
+671	NGR	Plateau 	Kanam--Plateau	NULL
+672	NGR	Plateau 	Kanke--Plateau	NULL
+673	NGR	Plateau 	Langtang North--Plateau	NULL
+674	NGR	Plateau 	Langtang South--Plateau	NULL
+675	NGR	Plateau 	Mangu--Plateau	NULL
+676	NGR	Rivers 	Mikang--Plateau	NULL
+677	NGR	Rivers 	Pankshin--Plateau	NULL
+678	NGR	Rivers 	Qua An Pan--Plateau	NULL
+679	NGR	Rivers 	Riyom--Plateau	NULL
+680	NGR	Rivers 	Shendam--Plateau	NULL
+681	NGR	Rivers 	Wase--Plateau	NULL
+682	NGR	Rivers 	Abua/Odual--Rivers	NULL
+683	NGR	Rivers 	Ahoada East--Rivers	NULL
+684	NGR	Rivers 	Ahoada West--Rivers	NULL
+685	NGR	Rivers 	Akuku-Toru--Rivers	NULL
+686	NGR	Rivers 	Andoni--Rivers	NULL
+687	NGR	Rivers 	Asari-Toru--Rivers	NULL
+688	NGR	Rivers 	Bonny--Rivers	NULL
+689	NGR	Rivers 	Degema--Rivers	NULL
+690	NGR	Rivers 	Eleme--Rivers	NULL
+691	NGR	Rivers 	Emuoha--Rivers	NULL
+692	NGR	Rivers 	Etche--Rivers	NULL
+693	NGR	Rivers 	Gokana--Rivers	NULL
+694	NGR	Rivers 	Ikwerre--Rivers	NULL
+695	NGR	Rivers 	Khana--Rivers	NULL
+696	NGR	Rivers 	Obio/Akpor--Rivers	NULL
+697	NGR	Rivers 	Ogba/Egbema/Ndoni--Rivers	NULL
+698	NGR	Rivers 	Ogu/Bolo--Rivers	NULL
+699	NGR	Sokoto 	Okrika--Rivers	NULL
+700	NGR	Sokoto 	Omuma--Rivers	NULL
+701	NGR	Sokoto 	Opobo/Nkoro--Rivers	NULL
+702	NGR	Sokoto 	Oyigbo--Rivers	NULL
+703	NGR	Sokoto 	Port Harcourt--Rivers	NULL
+704	NGR	Sokoto 	Tai--Rivers	NULL
+705	NGR	Sokoto 	Binji--Sokoto	NULL
+706	NGR	Sokoto 	Bodinga--Sokoto	NULL
+707	NGR	Sokoto 	Dange Shuni--Sokoto	NULL
+708	NGR	Sokoto 	Gada--Sokoto	NULL
+709	NGR	Sokoto 	Goronyo--Sokoto	NULL
+710	NGR	Sokoto 	Gudu--Sokoto	NULL
+711	NGR	Sokoto 	Gwadabawa--Sokoto	NULL
+712	NGR	Sokoto 	Illela--Sokoto	NULL
+713	NGR	Sokoto 	Isa--Sokoto	NULL
+714	NGR	Sokoto 	Kebbe--Sokoto	NULL
+715	NGR	Sokoto 	Kware--Sokoto	NULL
+716	NGR	Sokoto 	Rabah--Sokoto	NULL
+717	NGR	Sokoto 	Sabon Birni--Sokoto	NULL
+718	NGR	Sokoto 	Shagari--Sokoto	NULL
+719	NGR	Sokoto 	Silame--Sokoto	NULL
+720	NGR	Sokoto 	Sokoto North--Sokoto	NULL
+721	NGR	Sokoto 	Sokoto South--Sokoto	NULL
+722	NGR	Taraba 	Tambuwal--Sokoto	NULL
+723	NGR	Taraba 	Tangaza--Sokoto	NULL
+724	NGR	Taraba 	Tureta--Sokoto	NULL
+725	NGR	Taraba 	Wamako--Sokoto	NULL
+726	NGR	Taraba 	Wurno--Sokoto	NULL
+727	NGR	Taraba 	Yabo--Sokoto	NULL
+728	NGR	Taraba 	Ardo Kola--Taraba	NULL
+729	NGR	Taraba 	Bali--Taraba	NULL
+730	NGR	Taraba 	Donga--Taraba	NULL
+731	NGR	Taraba 	Gashaka--Taraba	NULL
+732	NGR	Taraba 	Gassol--Taraba	NULL
+733	NGR	Taraba 	Ibi--Taraba	NULL
+734	NGR	Taraba 	Jalingo--Taraba	NULL
+735	NGR	Taraba 	Karim Lamido--Taraba	NULL
+736	NGR	Taraba 	Kumi--Taraba	NULL
+737	NGR	Taraba 	Lau--Taraba	NULL
+738	NGR	Yobe 	Sardauna--Taraba	NULL
+739	NGR	Yobe 	Takum--Taraba	NULL
+740	NGR	Yobe 	Ussa--Taraba	NULL
+741	NGR	Yobe 	Wukari--Taraba	NULL
+742	NGR	Yobe 	Yorro--Taraba	NULL
+743	NGR	Yobe 	Zing--Taraba	NULL
+744	NGR	Yobe 	Bade--Yobe	NULL
+745	NGR	Yobe 	Bursari--Yobe	NULL
+746	NGR	Yobe 	Damaturu--Yobe	NULL
+747	NGR	Yobe 	Fika--Yobe	NULL
+748	NGR	Yobe 	Fune--Yobe	NULL
+749	NGR	Yobe 	Geidam--Yobe	NULL
+750	NGR	Yobe 	Gujba--Yobe	NULL
+751	NGR	Yobe 	Gulani--Yobe	NULL
+752	NGR	Yobe 	Jakusko--Yobe	NULL
+753	NGR	Yobe 	Karasuwa--Yobe	NULL
+754	NGR	Yobe 	Machina--Yobe	NULL
+755	NGR	Zamfara	Gusau--Zamfara	NULL
+756	NGR	Zamfara		NULL
+757	NGR	Zamfara	Kaura Namoda--Zamfara	NULL
+758	NGR	Zamfara		NULL
+759	NGR	Zamfara	Maradun--Zamfara	NULL
+760	NGR	Zamfara		NULL
+761	NGR	Zamfara	Maru--Zamfara	NULL
+762	NGR	Zamfara		NULL
+763	NGR	Zamfara	Shinkafi--Zamfara	NULL
+764	NGR	Zamfara		NULL
+765	NGR	Zamfara	Talata Mafara--Zamfara	NULL
+766	NGR	Zamfara		NULL
+767	NGR	Zamfara	Zurmi--Zamfara	NULL
+768	NGR	Zamfara 	Nangere--Yobe	NULL
+769	NGR	Zamfara 	Nguru--Yobe	NULL
+770	NGR	Zamfara 	Potiskum--Yobe	NULL
+771	NGR	Zamfara 	Tarmuwa--Yobe	NULL
+772	NGR	Zamfara 	Yunusari--Yobe	NULL
+773	NGR	Zamfara 	Yusufari--Yobe	NULL
+774	NGR	Zamfara 	Anka--Zamfara	NULL
+775	NGR	Zamfara 	Bakura--Zamfara	NULL
+776	NGR	Zamfara 	Birnin Magaji/Kiyaw--Zamfara	NULL
+777	NGR	Zamfara 	Bukkuyum--Zamfara	NULL
+778	NGR	Zamfara 	Bungudu--Zamfara	NULL
+779	NGR	Zamfara 	Chafe--Zamfara	NULL
+780	NGR	Zamfara 	Gummi--Zamfara

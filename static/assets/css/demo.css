@@ -1,0 +1,287 @@
+/*
+* demo.css
+* File include item demo only specific css only
+******************************************************************************/
+
+
+
+/* *{
+  background: #131418;
+  color: #131418;
+
+} */
+
+
+
+
+
+body{
+  background: linear-gradient(rgba(95, 92, 92, 0.2), rgba(255, 255, 255, 0.5));
+
+}
+
+
+
+
+.menu .app-brand.demo {
+  height: 64px;
+  margin-top: 12px;
+}
+
+.app-brand-logo.demo svg {
+  width: 22px;
+  height: 38px;
+}
+
+.app-brand-text.demo {
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+  text-transform: lowercase;
+}
+
+/* ! For .layout-navbar-fixed added fix padding top tpo .layout-page */
+/* Detached navbar */
+.layout-navbar-fixed .layout-wrapper:not(.layout-horizontal):not(.layout-without-menu) .layout-page {
+  padding-top: 76px !important;
+}
+/* Default navbar */
+.layout-navbar-fixed .layout-wrapper:not(.layout-without-menu) .layout-page {
+  padding-top: 64px !important;
+}
+
+/* Navbar page z-index issue solution */
+.content-wrapper .navbar {
+  z-index: auto;
+}
+
+/*
+* Content
+******************************************************************************/
+
+.demo-blocks > * {
+  display: block !important;
+}
+
+.demo-inline-spacing > * {
+  margin: 1rem 0.375rem 0 0 !important;
+}
+
+/* ? .demo-vertical-spacing class is used to have vertical margins between elements. To remove margin-top from the first-child, use .demo-only-element class with .demo-vertical-spacing class. For example, we have used this class in forms-input-groups.html file. */
+.demo-vertical-spacing > * {
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-lg > * {
+  margin-top: 1.875rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing-lg.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-xl > * {
+  margin-top: 5rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing-xl.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.rtl-only {
+  display: none !important;
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+[dir='rtl'] .rtl-only {
+  display: block !important;
+}
+
+/*
+* Layout demo
+******************************************************************************/
+
+.layout-demo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.layout-demo-placeholder img {
+  width: 900px;
+}
+.layout-demo-info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+.hidden{
+  display: none;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  #upload-btn {
+    width: 9em;
+    /* margin-right: 75%; */
+  }
+
+
+  #tablediv{
+    width: 20%;
+    margin-left: -2em;
+  }
+
+
+  #course_video{
+    width: 100%;
+  }
+
+  #login{
+    margin-top: -6em;
+  }
+  #register{
+    width: 20em;
+  }
+  
+}
+
+@media (min-width: 400px) and (max-width: 450px) {
+
+  #register{
+    width: 20em;
+  }
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 350px) {
+
+  #register{
+    width: 18em;
+  }
+  
+}
+@media (min-width: 390px) and (max-width: 400px) {
+
+  #register{
+    width: 22em;
+  }
+  
+}
+@media (min-width: 410px) and (max-width: 450px) {
+
+  #register{
+    width: 24em;
+  }
+  
+}
+
+@media (min-width: 800px) and (max-width: 6000px) {
+
+#course_video{
+  width: 30em;
+}
+
+}
+
+
+@media (min-width: 800px) and (max-width: 6000px) {
+
+
+
+.layout-menu {
+
+  box-shadow:2px 2px 2px ;
+
+
+}
+
+
+}
+
+
+
+#upload{
+  background-color: rgb(140, 140, 221);
+  color: white;
+  border: rgb(69, 69, 216);
+}
+
+
+
+<!-- <li class="menu-item ">
+<a href="{% url 'course_payment' %}" class="menu-link" style="color:white; ">
+  <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
+  <div data-i18n="Analytics">Course Payment</div>
+</a>
+</li> -->
+
+
+
+/* myapp/static/myapp.css */
+.password-reset-form {
+
+  color:blue
+}
+
+
+.password-reset-form #id_email {
+
+  background-color: blue;
+  /* Your custom styles for the email field */
+}
+
+
+
+
+
+
+/* myapp/static/myapp.css */
+.password-reset-confirm-form {
+  /* Your custom styles for the entire form */
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Style for the password input field */
+.password-reset-confirm-form #id_new_password1,
+/* Style for the password confirmation input field */
+.password-reset-confirm-form #id_new_password2 {
+  /* Your custom styles for the password input and confirmation fields */
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.password-reset-confirm-form button[type="submit"] {
+  /* Your custom styles for the submit button */
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+#logo{
+  width: 10em;
+}

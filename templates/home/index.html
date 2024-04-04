@@ -1,0 +1,48 @@
+{% extends 'home/base.html' %} 
+
+
+
+{% load static %}
+{%block content%}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <div class="header">
+        <br> <br> 
+        <div class="content">
+            <h1 class ="home-title">
+               <strong style="color: white;"> InnovationAI Labs</strong> 
+                </h1>
+        </div>
+
+        
+        <div class="cover">
+            {%if user.is_authenticated%}
+                <a href="{% url 'dashboard'%}"  class="btn btn-dark" id="startbtn"> Get Started </a>
+            {%else%}
+                <a href="{% url 'signin'%}"  class="btn btn-dark" id="startbtn"> Get Started </a>
+            {%endif%}
+        </div>
+
+    </div>
+
+</head>
+
+<link rel="stylesheet" href="{% static 'home/css/home.css'%}">
+<body>
+
+
+</body>
+</html>
+{%endblock%}
+
+
+

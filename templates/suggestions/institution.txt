@@ -1,0 +1,263 @@
+
+1   Abia State University, Uturu	State Owned
+1	Adamawa State University Mubi	State Owned
+1	Adekunle Ajasin University, Akungba	State Owned
+1	Akwa Ibom State University, Ikot Akpaden	State Owned
+1	Ambrose Alli University, Ekpoma	State Owned
+1	Chukwuemeka Odumegwu Ojukwu University, Uli	State Owned
+1	Bauchi State University, Gadau	State Owned
+1	Benue State University, Makurdi	State Owned
+1	Yobe State University, Damaturu	State Owned
+1	Cross River State University of Technology, Calabar	State Owned
+1	Delta State University Abraka	State Owned
+1	Ebonyi State University, Abakaliki	State Owned
+1	Ekiti State University	State Owned
+1	Enugu State University of Science and Technology, Enugu	State Owned
+1	Gombe State Univeristy, Gombe	State Owned
+1	Ibrahim Badamasi Babangida University, Lapai	State Owned
+1	Ignatius Ajuru University of Education,Rumuolumeni	State Owned
+1	Imo State University, Owerri	State Owned
+1	Sule Lamido University, Kafin Hausa, Jigawa	State Owned
+1	Kaduna State University, Kaduna	State Owned
+1	Kano University of Science & Technology, Wudil	State Owned
+1	Kebbi State University of Science and Technology, Aliero	State Owned
+1	Prince Abubakar Audu University Anyigba	State Owned
+1	Kwara State University, Ilorin	State Owned
+1	Ladoke Akintola University of Technology, Ogbomoso	State Owned
+1	Ondo State University of Science and Technology Okitipupa	State Owned
+1	Rivers State University	State Owned
+1	Olabisi Onabanjo University, Ago Iwoye	State Owned
+1	Lagos State University, Ojo	State Owned
+1	Niger Delta University Yenagoa	State Owned
+1	Nasarawa State University Keffi	State Owned
+1	Plateau State University Bokkos	State Owned
+1	Tai Solarin University of Education Ijebu Ode	State Owned
+1	Umar Musa Yar’ Adua University Katsina	State Owned
+1	Osun State University Osogbo	State Owned
+1	Taraba State University, Jalingo	State Owned
+1	Sokoto State University	State Owned
+1	Yusuf Maitama Sule University Kano	State Owned
+1	Oyo State Technical University Ibadan	State Owned
+1	Ondo State University of Medical Sciences	State Owned
+1	Edo State University Uzairue	State Owned
+1	Kingsley Ozumba Mbadiwe University Ogboko, Imo State	State Owned
+1	University of Africa Toru Orua, Bayelsa State	State Owned
+1	Bornu State University, Maiduguri	State Owned
+1	Moshood Abiola University of Science and Technology Abeokuta	State Owned
+1	Gombe State University of Science and Technology	State Owned
+1	Zamfara State University	State Owned
+1	Bayelsa Medical University	State Owned
+1	University of Agriculture and Environmental Sciences Umuagwo, Imo State	State Owned
+1	Confluence University of Science and Technology Osara, Kogi	State Owned
+1	University of Delta, Agbor	State Owned
+1	Delta University of Science and Technology, Ozoro	State Owned
+1	Dennis Osadebe University, Asaba	State Owned
+1	Bamidele Olumilua University of Science and Technology Ikere, Ekiti State	State Owned
+1	Lagos State University of Education, Ijanikin	State Owned
+1	Lagos State University of Science and Technology Ikorodu	State Owned
+1	Shehu Shagari University of Education, Sokoto	State Owned
+1	Enugu State University of Medical and Applied Sciences, Igbo-Eno	State Owned
+1	University of Ilesa, Osun State	State Owned
+1	Emmanuel Alayande University of Education. Oyo, Oyo State	State Owned
+1	Sa’adatu Rimi University of Education	State Owned
+1	Kogi State University, Kabba	State Owned
+1	Niger State University of Education, Minna	State Owned
+1	Achievers University, Owo	Private Owned
+1	Adeleke University, Ede	Private Owned
+1	Afe Babalola University, Ado-Ekiti – Ekiti State	Private Owned
+1	African University of Science & Technology, Abuja	Private Owned
+1	Ajayi Crowther University, Ibadan	Private Owned
+1	Al-Hikmah University, Ilorin	Private Owned
+1	Al-Qalam University, Katsina	Private Owned
+1	American University of Nigeria, Yola	Private Owned
+1	Augustine University	Private Owned
+1	Babcock University,Ilishan-Remo	Private Owned
+1	Baze University	Private Owned
+1	Bells University of Technology, Otta	Private Owned
+1	Benson Idahosa University, Benin City	Private Owned
+1	Bingham University, New Karu	Private Owned
+1	Bowen University, Iwo	Private Owned
+1	Caleb University, Lagos	Private Owned
+1	Caritas University, Enugu	Private Owned
+1	Chrisland University	Private Owned
+1	Covenant University Ota	Private Owned
+1	Crawford University Igbesa	Private Owned
+1	Crescent University	Private Owned
+1	Edwin Clark University, Kaigbodo	Private Owned
+1	Elizade University, Ilara-Mokin	Private Owned
+1	Evangel University, Akaeze	Private Owned
+1	Fountain Unveristy, Oshogbo	Private Owned
+1	Godfrey Okoye University, Ugwuomu-Nike – Enugu State	Private Owned
+1	Gregory University, Uturu	Private Owned
+1	Hallmark University, Ijebi Itele, Ogun	Private Owned
+1	Hezekiah University, Umudi	Private Owned
+1	Igbinedion University Okada	Private Owned
+1	Joseph Ayo Babalola University, Ikeji-Arakeji	Private Owned
+1	Kings University, Ode Omu	Private Owned
+1	Kwararafa University, Wukari	Private Owned
+1	Landmark University, Omu-Aran.	Private Owned
+1	Lead City University, Ibadan	Private Owned
+1	Madonna University, Okija	Private Owned
+1	Mcpherson University, Seriki Sotayo, Ajebo	Private Owned
+1	Micheal & Cecilia Ibru University	Private Owned
+1	Mountain Top University	Private Owned
+1	Nile University of Nigeria, Abuja	Private Owned
+1	Novena University, Ogume	Private Owned
+1	Obong University, Obong Ntak	Private Owned
+1	Oduduwa University, Ipetumodu – Osun State	Private Owned
+1	Pan-Atlantic University, Lagos	Private Owned
+1	Paul University, Awka – Anambra State	Private Owned
+1	Redeemer’s University, Ede	Private Owned
+1	Renaissance University, Enugu	Private Owned
+1	Rhema University, Obeama-Asa – Rivers State	Private Owned
+1	Ritman University, Ikot Ekpene, Akwa Ibom	Private Owned
+1	Salem University, Lokoja	Private Owned
+1	Samuel Adegboyega University, Ogwa.	Private Owned
+1	Southwestern University, Oku Owa	Private Owned
+1	Summit University, Offa	Private Owned
+1	Tansian University, Umunya	Private Owned
+1	University of Mkar, Mkar	Private Owned
+1	Veritas University, Abuja	Private Owned
+1	Wellspring University, Evbuobanosa – Edo State	Private Owned
+1	Wesley University Ondo	Private Owned
+1	Western Delta University, Oghara Delta State	Private Owned
+1	Christopher University Mowe	Private Owned
+1	Kola Daisi University Ibadan, Oyo State	Private Owned
+1	Anchor University Ayobo Lagos State	Private Owned
+1	Dominican University Ibadan Oyo State	Private Owned
+1	Legacy University, Okija Anambra State	Private Owned
+1	Arthur Javis University Akpoyubo Cross river State	Private Owned
+1	Crown Hill University Eiyenkorin, Kwara State	Private Owned
+1	Coal City University Enugu State	Private Owned
+1	Clifford University Owerrinta Abia State	Private Owned
+1	Spiritan University, Nneochi Abia State	Private Owned
+1	Precious Cornerstone University, Oyo	Private Owned
+1	PAMO University of Medical Sciences, Portharcourt	Private Owned
+1	Atiba University Oyo	Private Owned
+1	Eko University of Medical and Health Sciences Ijanikin, Lagos	Private Owned
+1	Skyline University, Kano	Private Owned
+1	Greenfield University, Kaduna	Private Owned
+1	Dominion University Ibadan, Oyo State	Private Owned
+1	Trinity University Ogun State	Private Owned
+1	Westland University Iwo, Osun State	Private Owned
+1	Topfaith University, Mkpatak, Akwa Ibom State	Private Owned
+1	Thomas Adewumi University, Oko-Irese, Kwara State	Private Owned
+1	Maranathan University, Mgbidi, Imo State	Private Owned
+1	Ave Maria University, Piyanko, Nasarawa State	Private Owned
+1	Al-Istiqama University, Sumaila, Kano State	Private Owned
+1	Mudiame University, Irrua, Edo State	Private Owned
+1	Havilla University, Nde-Ikom, Cross River State	Private Owned
+1	Claretian University of Nigeria, Nekede, Imo State	Private Owned
+1	NOK University, Kachia, Kaduna State	Private Owned
+1	Karl-Kumm University, Vom, Plateau State	Private Owned
+1	James Hope University, Lagos, Lagos State	Private Owned
+1	Maryam Abacha American University of Nigeria, Kano State	Private Owned
+1	Capital City University, Kano State	Private Owned
+1	Ahman Pategi University, Kwara State	Private Owned
+1	University of Offa, Kwara State	Private Owned
+1	Mewar International University, Masaka, Nasarawa State	Private Owned
+1	Edusoko University, Bida, Niger State	Private Owned
+1	Philomath University, Kuje, Abuja	Private Owned
+1	Khadija University, Majia, Jigawa State	Private Owned
+1	Anan University, Kwall, Plateau State	Private Owned
+1	PEN Resource University, Gombe	Private Owned
+1	Al-Ansar University, Maiduguri, Borno	Private Owned
+1	Margaret Lawrence University, Umunede, Delta State	Private Owned
+1	Khalifa Isiyaku Rabiu University, Kano	Private Owned
+1	Sports University, Idumuje, Ugboko, Delta State	Private Owned
+1	Baba Ahmed University, Kano State	Private Owned
+1	Saisa University of Medical Sciences and Technology, Sokoto State	Private Owned
+1	Nigerian British University, Asa, Abia State	Private Owned
+1	Peter University, Achina-Onneh Anambra State	Private Owned
+1	Newgate University, MInna, Niger State.	Private Owned
+1	European University of Nigeria, Duboyi, FCT	Private Owned
+1	NorthWest University Sokoto State	Private Owned
+1	Rayhaan University, Kebbi	Private Owned
+1	Muhammad Kamalud University Kwara	Private Owned
+1	Sam Maris University, Ondo	Private Owned
+1	Aletheia University, Ago-Iwoye Ogun State	Private Owned
+1	Lux Mundi University Umuahia, Abia State	Private Owned
+1	Maduka University, Ekwegbe, Enugu State	Private Owned
+1	PeaceLand University, Enugu State	Private Owned
+1	Amadeus University, Amizi, Abia State	Private Owned
+1	Vision University, Ikogbo, Ogun State	Private Owned
+1	Azman University, Kano State	Private Owned
+1	Huda University, Gusau, Zamafara State	Private Owned
+1	Franco British International University, Kaduna State	Private Owned
+1	Canadian University of Nigeria, Abuja	Private Owned
+1	Gerar University of Medical Science Imope Ijebu, Ogun State.	Private Owned
+1	British Canadian University, Obufu Cross River State	Private Owned
+1	Hensard University, Toru-Orua, Sagbama, Bayelsa State	Private Owned
+1	Amaj University, Kwali, Abuja	Private Owned
+1	Phoenix University, Agwada, Nasarawa State	Private Owned
+1	Wigwe University, Isiokpo Rivers State	Private Owned
+1	Hillside University of Science and Technology, Okemisi, Ekiti State	Private Owned
+1	University on the Niger, Umunya, Anambra state	Private Owned
+1	Elrazi Medical University Yargaya University, Kano State	Private Owned
+1	Venite University, Iloro-Ekiti, Ekiti State	Private Owned
+1	Shanahan University Onitsha, Anambra State	Private Owned
+1	The Duke Medical University, Calabar, Cross River State	Private Owned
+1	Mercy Medical University, Iwo, Ogun State	Private Owned
+1	Cosmopolitan University Abuja	Private Owned
+1	Miva Open University, Abuja FCT	Private Owned
+1	Iconic Open University, Sokoto State.	Private Owned
+1	West Midlands Open University, Ibadan, Oyo State	Private Owned
+1	Al-Muhibbah Open University, Abuja	Private Owned
+1	El-Amin University, Minna, Niger State	Private Owned
+1	College of Petroleum and Energy Studies, Kaduna State	Private Owned
+1	Jewel University, Gombe state	Private Owned
+1	Prime University, Kuje, FCT Abuja	Private Owned
+1	Nigerian University of Technology and Management, Apapa, Lagos State	Private Owned
+1	Al-Bayan University, Ankpa, Kogi State	Private Owned
+1	Abubakar Tafawa Balewa University, Bauchi	Federal
+1	Ahmadu Bello University, Zaria	Federal
+1	Bayero University, Kano	Federal
+1	Federal University Gashua, Yobe	Federal
+1	Federal University of Petroleum Resources, Effurun	Federal
+1	Federal University of Technology, Akure	Federal
+1	Federal University of Technology, Minna	Federal
+1	Federal University of Technology, Owerri	Federal
+1	Federal University, Dutse, Jigawa State	Federal
+1	Federal University, Dutsin-Ma, Katsina	Federal
+1	Federal University, Kashere, Gombe State	Federal
+1	Federal University, Lafia, Nasarawa State	Federal
+1	Federal University, Lokoja, Kogi State	Federal
+1	Alex Ekwueme University, Ndufu-Alike, Ebonyi State	Federal
+1	Federal University, Otuoke, Bayelsa	Federal
+1	Federal University, Oye-Ekiti, Ekiti State	Federal
+1	Federal University, Wukari, Taraba State	Federal
+1	Federal University, Birnin Kebbi	Federal
+1	Federal University, Gusau Zamfara	Federal
+1	Michael Okpara University of Agricultural Umudike	Federal
+1	Modibbo Adama University of Technology, Yola	Federal
+1	National Open University of Nigeria, Lagos	Federal
+1	Nigeria Police Academy Wudil	Federal
+1	Nigerian Defence Academy Kaduna	Federal
+1	Nnamdi Azikiwe University, Awka	Federal
+1	Obafemi Awolowo University, Ile-Ife	Federal
+1	University of Abuja, Gwagwalada	Federal
+1	Federal University of Agriculture, Abeokuta	Federal
+1	University of Agriculture, Makurdi	Federal
+1	University of Benin	Federal
+1	University of Calabar	Federal
+1	University of Ibadan	Federal
+1	University of Ilorin	Federal
+1	University of Jos	Federal
+1	University of Lagos	Federal
+1	University of Maiduguri	Federal
+1	University of Nigeria, Nsukka	Federal
+1	University of Port-Harcourt	Federal
+1	University of Uyo	Federal
+1	Usumanu Danfodiyo University	Federal
+1	Nigerian Maritime University Okerenkoko, Delta State	Federal
+1	Air Force Institute of Technology, Kaduna	Federal
+1	Nigerian Army University Biu	Federal
+1	Federal University of Health Technology, Otukpo Benue State	Federal
+1	Federal University of Agriculture, Zuru, Kebbi State	Federal
+1	Federal University of Technology, Babura, Jigawa State	Federal
+1	Federal University of Technology, Ikot Abasi, Akwa Ibom State	Federal
+1	Federal University of Health Sciences, Azare, Bauchi State	Federal
+1	Federal University of Health Sciences, Ila Orangun, Osun State	Federal
+1	David Nweze Umahi Federal University of Medical Sciences, Uburu	Federal
+1	Admiralty University Ibusa, Delta State	Federal
+1	Federal University of Transportation Daura, Katsina	Federal

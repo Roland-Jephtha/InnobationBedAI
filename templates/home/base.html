@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>InnovationAI Labs</title>
+  <link rel="stylesheet" href="{%static 'home/cssb/bootstrap.min.css'%}">
+  <link rel="stylesheet" href="{% static 'home/css/main.css' %}" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar" style="background-color: rgb(17, 190, 17);">
+      <div class="container-fluid" style="background-color: rgb(17, 190, 17);"> 
+        
+        <a class="navbar-brand" href="{%url 'index'%}">
+          <img src="{% static 'home/images/logo.png'%}" alt="" id="logo">   
+        </a>        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="{%url 'index'%}">Home</a>
+            </li>
+
+    
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="{%url 'register-option'%}">Register</a>
+            </li>
+
+    
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="{%url 'signin'%}">Login</a>
+            </li>
+
+    
+            
+
+            
+
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <br /><br />
+  <main>
+    
+    <br> 
+  
+
+    
+    {% block content %}
+    {% endblock content %}
+    <br> <br>
+    
+
+    <footer class="border-top">
+      <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+              <div class="col-md-10 col-lg-8 col-xl-7">
+                  <div class="small text-center text-muted fst-italic">Copyright &copy; Powered By  Innovation AI Labs <strong>2024</strong></div> <br> <br> <br>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+  </main>
+  <script src="{%static 'home/js/bootstrap.min.js'%}"></script>
+</body>
+
+</html>

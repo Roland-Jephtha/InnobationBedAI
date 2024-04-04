@@ -1,0 +1,468 @@
+Faculty of Arts
+English Language and Literature:
+
+English Composition
+World Literature
+Shakespearean Studies
+Creative Writing
+History:
+
+World History
+History of [specific regions or countries]
+Historical Research Methods
+History of Ideas
+Philosophy:
+
+Introduction to Philosophy
+Ethics
+Metaphysics
+Epistemology
+Languages and Linguistics:
+
+Introduction to Linguistics
+Phonetics and Phonology
+Syntax and Semantics
+Sociolinguistics
+Visual Arts:
+
+Drawing and Painting
+Art History
+Sculpture
+Digital Arts
+Performing Arts:
+
+Introduction to Theater
+Acting and Performance
+Theater History
+Dance and Choreography
+Music:
+
+Music Theory
+Music History
+Composition
+Ethnomusicology
+Cultural Studies:
+
+Cultural Anthropology
+Cultural Theory
+Media and Cultural Studies
+Popular Culture
+Religious Studies:
+
+Introduction to Religious Studies
+Comparative Religion
+Religious Ethics
+Religion and Society
+Communication Studies:
+
+Introduction to Communication
+Media Studies
+Interpersonal Communication
+Mass Communication
+English Language and Literature: & Philosophy: are course categories
+faculty of Social Sciences
+ Economics:
+
+Microeconomics
+Macroeconomics
+International Economics
+Economic Development
+Political Science:
+
+Introduction to Political Science
+Comparative Politics
+International Relations
+Political Theory
+Sociology:
+
+Introduction to Sociology
+Social Research Methods
+Sociological Theory
+Social Issues and Policy
+Psychology:
+
+General Psychology
+Abnormal Psychology
+Social Psychology
+Cognitive Psychology
+Anthropology:
+
+Cultural Anthropology
+Biological Anthropology
+Archaeology
+Anthropological Research Methods
+Geography:
+
+Human Geography
+Physical Geography
+Geographic Information Systems (GIS)
+Environmental Geography
+History:
+
+World History
+History of [specific regions or countries]
+Historical Research Methods
+History of Ideas
+Criminology:
+
+Introduction to Criminology
+Criminal Justice System
+Crime and Deviance
+Penology
+Social Work:
+
+Introduction to Social Work
+Social Work Practice
+Social Welfare Policy
+Human Behavior and the Social Environment
+Communication Studies:
+
+Introduction to Communication
+Media Studies
+Interpersonal Communication
+Mass Communication
+[2/10, 12:35 PM] programos amos: 3. faculty of Edcuation
+[2/10, 12:35 PM] programos amos: Education Foundations:
+
+Introduction to Education
+Philosophy of Education
+Sociology of Education
+Psychology of Learning
+Curriculum and Instruction:
+
+Curriculum Development
+Teaching Methods
+Classroom Management
+Educational Technology
+Educational Psychology:
+
+Child Development
+Adolescent Psychology
+Learning Theories
+Motivation and Classroom Learning
+Special Education:
+
+Inclusive Education
+Special Education Needs (SEN)
+Differentiated Instruction
+Gifted Education
+Early Childhood Education:
+
+Early Childhood Development
+Play and Learning
+Literacy in Early Childhood
+Early Childhood Curriculum
+Educational Leadership and Administration:
+
+School Leadership
+Educational Policy
+School Finance and Budgeting
+Educational Law and Ethics
+Language Education:
+
+Teaching English as a Second Language (TESL)
+Linguistics for Language Teachers
+Literacy Education
+Foreign Language Teaching Methods
+Mathematics and Science Education:
+
+Teaching Mathematics
+Teaching Science
+Inquiry-Based Learning
+STEM Education
+Physical Education:
+
+Physical Education Pedagogy
+Sports Science
+Health Education
+Adapted Physical Education
+Counseling and Guidance:
+
+School Counseling
+Career Counseling
+Group Counseling
+Counseling Theories
+
+Faculty of Business Administration
+Accounting:
+
+Financial Accounting
+Managerial Accounting
+Auditing
+Taxation
+Forensic Accounting
+Finance:
+
+Corporate Finance
+Investment Analysis
+Financial Markets
+Risk Management
+International Finance
+Marketing:
+
+Principles of Marketing
+Consumer Behavior
+Marketing Research
+Digital Marketing
+Brand Management
+Management:
+
+Principles of Management
+Organizational Behavior
+Human Resource Management
+Strategic Management
+Operations Management
+Entrepreneurship:
+
+Entrepreneurial Finance
+Business Plan Development
+New Venture Creation
+Innovation and Creativity
+Small Business Management
+International Business:
+
+International Marketing
+Global Business Strategy
+International Trade
+Cross-Cultural Management
+Global Supply Chain Management
+Business Ethics:
+
+Corporate Social Responsibility
+Business Ethics and Leadership
+Ethical Decision-Making
+Sustainability in Business
+Economics:
+
+Microeconomics
+Macroeconomics
+Managerial Economics
+Economic Policy
+Development Economics
+Information Systems:
+
+Management Information Systems
+Database Management
+Business Analytics
+E-Business
+Enterprise Resource Planning (ERP)
+[2/10, 12:36 PM] programos amos: 5. Faculty of Science
+[2/10, 12:36 PM] programos amos: Mathematics:
+
+Calculus
+Algebra
+Number Theory
+Differential Equations
+Mathematical Modeling
+Physics:
+
+Classical Mechanics
+Quantum Mechanics
+Electromagnetism
+Thermodynamics
+Astrophysics
+Chemistry:
+
+Inorganic Chemistry
+Organic Chemistry
+Physical Chemistry
+Analytical Chemistry
+Biochemistry
+Biology:
+
+Cell Biology
+Genetics
+Ecology
+Microbiology
+Evolutionary Biology
+Computer Science:
+
+Programming Fundamentals
+Data Structures and Algorithms
+Computer Networks
+Artificial Intelligence
+Database Management Systems
+Geology:
+
+Mineralogy
+Petrology
+Structural Geology
+Geochemistry
+Paleontology
+Statistics:
+
+Probability Theory
+Statistical Inference
+Regression Analysis
+Time Series Analysis
+Experimental Design
+Environmental Science:
+
+Environmental Chemistry
+Climate Science
+Environmental Impact Assessment
+Ecology and Conservation
+Geographic Information Systems (GIS)
+Astrophysics:
+
+Observational Astronomy
+Stellar Astrophysics
+Galactic Astronomy
+Cosmology
+High-Energy Astrophysics
+
+Faculty of Engineering
+Civil Engineering:
+
+Structural Analysis
+Geotechnical Engineering
+Transportation Engineering
+Environmental Engineering
+Construction Management
+Mechanical Engineering:
+
+Thermodynamics
+Fluid Mechanics
+Heat Transfer
+Machine Design
+Robotics and Automation
+Electrical Engineering:
+
+Circuit Analysis
+Digital Signal Processing
+Power Systems
+Control Systems
+Electronics
+Chemical Engineering:
+
+Chemical Process Design
+Thermodynamics of Chemical Processes
+Mass Transfer Operations
+Heat Transfer Operations
+Chemical Reaction Engineering
+Computer Engineering:
+
+Digital Logic Design
+Computer Architecture
+Operating Systems
+Network Design
+Software Engineering
+Aerospace Engineering:
+
+Aerodynamics
+Aircraft Structures
+Flight Dynamics
+Aerospace Propulsion
+Avionics
+Biomedical Engineering:
+
+Biomechanics
+Bioinformatics
+Medical Imaging
+Biomaterials
+Rehabilitation Engineering
+Environmental Engineering:
+
+Water and Wastewater Treatment
+Air Quality Management
+Environmental Impact Assessment
+Solid Waste Management
+Environmental Modeling
+
+
+Faculty of Health Sciences:
+Medicine:
+
+General Medicine
+Surgery
+Pediatrics
+Internal Medicine
+Obstetrics and Gynecology
+Nursing:
+
+Nursing Science
+Pediatric Nursing
+Adult Health Nursing
+Community Health Nursing
+Public Health:
+
+Epidemiology
+Health Policy and Management
+Environmental Health
+Biostatistics
+Pharmacy:
+
+Pharmaceutical Sciences
+Medicinal Chemistry
+Pharmacology
+Pharmacy Practice
+Dentistry:
+
+Dental Surgery
+Oral and Maxillofacial Surgery
+Orthodontics
+Periodontics
+Faculty of Architecture:
+Architectural Design:
+
+Architectural Drawing
+Building Construction
+Architectural Theory
+Architectural History
+Urban Planning:
+
+Urban Design
+Sustainable Urban Planning
+Transportation Planning
+Environmental Planning
+Building Technology:
+
+Construction Management
+Structural Engineering
+Building Materials and Technology
+Faculty of Agriculture:
+Crop Science:
+
+Crop Production
+Soil Science
+Plant Pathology
+Agronomy
+Animal Science:
+
+Animal Nutrition
+Animal Breeding
+Veterinary Medicine
+Poultry Science
+Agricultural Economics:
+
+Agricultural Finance
+Agribusiness Management
+Agricultural Policy
+Rural Development
+Agronomy:
+
+Sustainable Agriculture
+Precision Farming
+Crop Physiology
+Weed Science
+Faculty of Law:
+Constitutional Law:
+
+Constitutional Interpretation
+Comparative Constitutional Law
+Human Rights Law
+Criminal Law:
+
+Criminal Procedure
+Criminal Justice
+White Collar Crime
+International Law:
+
+Public International Law
+International Humanitarian Law
+International Trade Law
+Corporate Law:
+
+Business Law
+Corporate Governance
+Securities Regulation

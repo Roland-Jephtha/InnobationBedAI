@@ -1,0 +1,91 @@
+{% extends 'dashboard/index.html' %}
+{% load static %}
+{% block content %}
+
+          <!-- Content wrapper -->
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h1 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></span>My Courses</h1>
+
+              <!-- Examples -->
+
+              <div class="row mb-5">
+
+                {% for course in general_courses %}
+
+                <div class="col-md-6 col-lg-4 mb-3">
+               
+
+                  <a href="{% url 'course-video' course.title %}">
+
+
+                  <div class="card h-60">
+                    <img class="card-img-top" src="{{course.image.url}}" alt="Card image cap" style="height: 15em;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{course.title}}         
+                        </h5>
+                      <p class="card-text">
+                        {{course.description|truncatewords:10}}
+
+                 
+                      <!-- <a href="javascript:void(0)" class="btn btn-outline-primary">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </a>
+
+                </div>
+
+                {% endfor %}
+
+                {% for course in courses %}
+
+                <div class="col-md-6 col-lg-4 mb-3">
+               
+
+                  <a href="{% url 'course-video' course.title %}">
+
+
+                  <div class="card h-60">
+                    <img class="card-img-top" src="{{course.image.url}}" alt="Card image cap" style="height: 15em;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{course.title}}         
+                         {% if course.paid == True %}
+                      <small style="size: 7px; color:rgb(10, 199, 10)">
+                        (Premium Course)                     
+                    </small>
+                      {% endif %}</h5>
+                      <p class="card-text">
+                        {{course.description|truncatewords:10}}
+
+                 
+                      <!-- <a href="javascript:void(0)" class="btn btn-outline-primary">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </a>
+
+                </div>
+
+                {% endfor %}
+   
+
+            
+              </div> <br>
+
+  
+              <!-- Examples -->
+
+              <!-- Content types -->
+             
+              
+      
+              </div>
+              <!--/ Card layout -->
+            </div>
+            <!-- / Content -->
+
+
+            {% endblock content %}
+
+
+          

@@ -1,0 +1,41 @@
+
+1	Abia	AB
+2	Adamawa	AD
+3	Akwa Ibom	AK
+4	Anambra	AN
+5	Bauchi	BU
+6	Bayelsa	BA
+7	Benue	BE
+8	Bornu	BO
+9	Cross River	CR
+10	Delta	DE
+11	Ebonyi	EB
+12	Edo	ED
+13	Ekiti	EK
+14	Enugu	EN 
+15	Gombe	GO
+16	Imo	IM
+17	Jigawa	JI
+18	Kaduna	KD
+19	Kano	KA
+20	Katsina	KT
+21	Kebbi	KE
+22	Kogi	KO
+23	Kwara	KW
+24	Lagos	LG
+25	Nasarawa	NS
+26	Niger	NI
+27	Ogun	OG
+28	Ondo	ON
+29	Osun	OS
+30	Oyo	OY
+31	Plateau	PL
+32	Rivers	RV
+33	Sokoto	SO
+34	Taraba	TA
+35	Yobe	YO
+36	FCT Abuja	ABJ
+37	Other Regions	OTH
+38	Federal	Fed
+
+

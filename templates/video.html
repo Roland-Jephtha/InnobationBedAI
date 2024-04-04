@@ -1,0 +1,1197 @@
+
+{% extends 'dashboard/index.html' %}
+{% load static %}
+{% block content %}
+
+
+
+
+
+
+
+
+<style>
+    /* Your existing styles */
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #videoPlayer {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive design */
+    }
+
+  
+
+    iframe{
+        width: 80%;
+        height: 40vw;
+
+    }
+
+    @media (min-width: 200px) and (max-width: 500px) {
+
+        iframe{
+            width: 18em;
+            height: 50vw;
+    
+        }
+    }
+</style>
+
+
+
+<!-- <link rel="stylesheet" href="{% static 'assets/css/video.css' %}" /> -->
+
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <!-- <h1 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></span>My Courses</h1> -->
+     
+{{course_video.title}}
+                <div class="video-frame">
+
+              <iframe src="{{course_video.link}}"
+               width="600" height="400" allow="autoplay">
+
+              </iframe>
+
+            </div>
+
+<!-- 
+              <!DOCTYPE html>
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>YouTube Video Player</title>
+                 
+              </head>
+              <body>
+              
+              <div id="videoPlayer">
+                  <a href="#" id="playLink">
+                      Play YouTube Video
+                  </a>
+              </div>
+              
+              <script>
+                  document.addEventListener('DOMContentLoaded', function () {
+                      const videoPlayer = document.querySelector('#videoPlayer');
+                      const playLink = document.querySelector('#playLink');
+                      const youtubeVideoId = 'https://www.youtube.com/watch?v=V5hREcYX6ws'; // Replace with the actual YouTube video ID
+              
+                      playLink.addEventListener('click', function (event) {
+                          event.preventDefault(); // Prevent the default link behavior
+              
+                          videoPlayer.innerHTML = `<iframe
+                                                      width="560"
+                                                      height="315"htt
+                                                      src="https://drive.google.com/file/d/15FTEDR0O8p4dtwFGpc8_UEXNHsc629HM/view?usp=sharing"
+                                                      frameborder="0"
+                                                      allowfullscreen
+                                                  ></iframe>`;
+                      });
+                  });
+              </script>
+              
+              </body>
+              </html>
+               -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+              
+
+              <!-- <script src="{% static 'assets/js/video.js' %}"></script> -->
+      
+              </div>
+              <!--/ Card layout -->
+            </div>
+            <!-- / Content -->
+<!-- 
+            <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                  const video = document.querySelector('video');
+                  const playButton = document.querySelector('#playButton');
+                  const pauseButton = document.querySelector('#pauseButton');
+                  const volumeUpButton = document.querySelector('#volumeUpButton');
+                  const volumeDownButton = document.querySelector('#volumeDownButton');
+      
+                  playButton.addEventListener('click', function () {
+                      video.play();
+                  });
+      
+                  pauseButton.addEventListener('click', function () {
+                      video.pause();
+                  });
+      
+                  volumeUpButton.addEventListener('click', function () {
+                      if (video.volume < 1) {
+                          video.volume += 0.1;
+                      }
+                  });
+      
+                  volumeDownButton.addEventListener('click', function () {
+                      if (video.volume > 0) {
+                          video.volume -= 0.1;
+                      }
+                  });
+              });
+          </script> -->
+
+
+            {% endblock content %}
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {% extends 'dashboard/index.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<link href="{% static 'home/css/bootstrap.css' %}" rel="stylesheet">
+<!-- DL Menu CSS -->
+<link href="{% static 'home/js/dl-menu/component.css' %}" rel="stylesheet">
+<!--SLICK SLIDER CSS-->
+<link rel="stylesheet" type="text/css" href="{% static 'home/css/slick.css' %}"/>
+<!-- Font Awesome StyleSheet CSS -->
+<link href="{% static 'home/css/font-awesome.min.css' %}" rel="stylesheet">
+<!-- Font Awesome StyleSheet CSS -->
+<link href="{% static 'home/css/svg.css' %}" rel="stylesheet">
+<!-- Pretty Photo CSS -->
+<link href="{% static 'home/css/prettyPhoto.css' %}" rel="stylesheet">
+<!-- Shortcodes CSS -->
+<link href="{% static 'home/css/shortcodes.css' %}" rel="stylesheet">
+<!-- Widget CSS -->
+<link href="{% static 'home/css/widget.css' %}" rel="stylesheet">
+<!-- Typography CSS -->
+<!-- <link href="{% static 'home/css/typography.css' %}" rel="stylesheet"> -->
+<!-- Custom Main StyleSheet CSS -->
+<link href="{% static 'home/style.css' %}" rel="stylesheet">
+<!-- Color CSS -->
+<link href="{% static 'home/css/color.css' %}" rel="stylesheet">
+<!-- Responsive CSS -->
+<link href="{% static 'home/css/responsive.css' %}" rel="stylesheet">
+
+
+
+<div class="content-wrapper">
+
+            <!-- <div class="iq_content_wrap" > -->
+              <!--coures_single_page START-->  
+              <section class="coures_single_page">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <!--course_single_heading START-->  
+                      <div class="course_single_heading">
+                        <!--Heading Wrap Start-->
+                                      <div class="iq_heading_1 text-left">
+                                          <h4>ASP.NET with <span>C #</span></h4>
+                                      </div>
+                  
+                      </div>
+                      <!--course_single_heading end--> 
+                      <!--about_courses START-->  
+                      <div class="about_courses">	
+                        <!--about_courses_thumb START-->
+                        <div class="about_courses_thumb">
+                          <div class="lessons-slider">
+                            <div>
+                              <img src="{% static 'home/extra-images/lessons1.jpg' %}" alt=""/>
+                            </div>
+                          
+                          </div>
+                                      
+                             
+                                        <div id="my-tab-content" class="tab-content">
+                                          <div class="tab-pane active" id="description">
+                              <div class="about_courses_thumb_capstion">
+                                <!--Heading Wrap Start-->
+                                              <div class="iq_heading_1 iq_heading_2 text-left">
+                                                  <h4>About The <span>Course</span></h4>
+                                              </div>
+                                              <!--Heading Wrap End-->
+                                <p>
+                                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                                </p>
+                                <p>
+                                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit.
+                                </p>
+                                <div class="border-div"></div>
+                                <!--Heading Wrap Start-->
+                                              <div class="iq_heading_1 iq_heading_2 text-left">
+                                                  <h4>Key <span>Features</span></h4>
+                                              </div>
+                                              <!--Heading Wrap End-->
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+                              </div>
+                              <!--about_courses_thumb end-->
+                              <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                  <ul class="categries-list">
+                                    <li><a href="#">Updated Installations</a></li>
+                                    <li><a href="#">Mega Database Provided</a></li>
+                                    <li><a href="#">MaurisIn EratJusto</a></li>
+                                    <li><a href="#">Ut Enim Ad Minima Veniam</a></li>
+                                    <li><a href="#">MaurisIn EratJusto</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                  <ul class="categries-list">
+                                    <li><a href="#">Introduction of The Course</a></li>
+                                    <li><a href="#">Mega Database Provided</a></li>
+                                    <li><a href="#">MaurisIn EratJusto</a></li>
+                                    <li><a href="#">Ut Enim Ad Minima Veniam</a></li>
+                                    <li><a href="#">Ut Enim Ad Minima Veniam</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="border-div"></div>
+                              <!--course_lesson START-->
+                              <ul class="categries-list">
+                                <li>
+                                  <a href="#">Introduction of The Course</a><span>Duration : 3 Hours</span>
+                                </li>
+                                <li>
+                                  <a href="#">Updated Installations</a><span>Duration : 3 Hours</span>
+                                </li>
+                                <li>
+                                  <a href="#">Introduction of The Course</a><span>Duration : 3 Hours</span>
+                                </li>
+                                <li>
+                                  <a href="#">Updated Installations</a><span>Duration : 3 Hours</span>
+                                </li>
+                              </ul>
+                              <a class="iq_link_1" href="#">View More lessons</a>
+                            </div>
+                            <div class="tab-pane" id="curriculum">
+                              <div class="curriculum-table iqoniq-table">
+                                <ul class="table-row table-header">
+                                    <li><div>Review Code</div></li>
+                                    <li class="course-name"><div>Review Courses Name</div></li>
+                                    <li><div>Review Credit</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div></div></li>
+                                    <li class="course-name"><div>1st Semester</div></li>
+                                    <li><div></div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS21</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Geometry and Linear Algebra</a></div>
+                                    </li>
+                                    <li><div>50</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS22</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Foundations of data Analysis</a></div>
+                                    </li>
+                                    <li><div>45</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS23</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Intorducation to Algebra I</a></div>
+                                    </li>
+                                    <li><div>40</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS24</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Data Analysis I</a></div>
+                                    </li>
+                                    <li><div>35</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div></div></li>
+                                    <li class="course-name"><div>2st Semester</div></li>
+                                    <li><div></div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS25</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Machine Learning</a></div>
+                                    </li>
+                                    <li><div>30</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS26</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Data Mines</a></div>
+                                    </li>
+                                    <li><div>12</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS27</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Intorducation to data Analysis II</a></div>
+                                    </li>
+                                    <li><div>25</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS28</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Intorducation to Algebra II</a></div>
+                                    </li>
+                                    <li><div>20</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div></div></li>
+                                    <li class="course-name"><div>2st Semester</div></li>
+                                    <li><div></div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS29</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Machine Learning</a></div>
+                                    </li>
+                                    <li><div>15</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS30</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Data Mines</a></div>
+                                    </li>
+                                    <li><div>12</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS31</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Intorducation to data Analysis II</a></div>
+                                    </li>
+                                    <li><div>10</div></li>
+                                </ul>
+                                <ul class="table-row">
+                                    <li><div>IQS32</div></li>
+                                    <li class="course-name">
+                                      <div><a href="#">Intorducation to Algebra II</a></div>
+                                    </li>
+                                    <li><div>5</div></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="tab-pane" id="instructor">
+                              <!--Teacher Wrap List Start-->
+                                        <!--Teacher Thumb Start-->
+                                        <div class="iq_teacher_style_1">
+                                            <figure>
+                                                <img src="extra-images/teacher-03.jpg" alt="Image Here">
+                                              </figure>
+                                              <div class="text">
+                                                  <h4><a href="#">Sara Adward</a></h4>
+                                                  <h6>Manager</h6>
+                                                  <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudinris.</p>
+                                                  <ul class="iq_footer_social">
+                                                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                        <!--Teacher Thumb End-->
+                                        <!--Teacher Thumb Start-->
+                                        <div class="iq_teacher_style_1">
+                                            <figure>
+                                                <img src="extra-images/teacher-04.jpg" alt="Image Here">
+                                              </figure>
+                                              <div class="text">
+                                                  <h4><a href="#">Anna Doe</a></h4>
+                                                  <h6>Language Instructor</h6>
+                                                  <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudinris.</p>
+                                                  <ul class="iq_footer_social">
+                                                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                        <!--Teacher Thumb End-->
+                                        <!--Teacher Thumb Start-->
+                                        <div class="iq_teacher_style_1">
+                                             <figure>
+                                                <img src="extra-images/teacher-05.jpg" alt="Image Here">
+                                              </figure>
+                                              <div class="text">
+                                                <h4><a href="#">John Doe</a></h4>
+                                                  <h6>Vice President</h6>
+                                                  <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudinris.</p>
+                                                  <ul class="iq_footer_social">
+                                                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                        <!--Teacher Thumb End-->
+                                        <!--Teacher Thumb Start-->
+                                        <div class="iq_teacher_style_1">
+                                            <figure>
+                                                <img src="extra-images/teacher-06.jpg" alt="Image Here">
+                                              </figure>
+                                              <div class="text">
+                                                  <h4><a href="#">Sara Adward</a></h4>
+                                                  <h6>Manager</h6>
+                                                  <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudinris.</p>
+                                                  <ul class="iq_footer_social">
+                                                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                        <!--Teacher Thumb End-->
+                                      <!--Teacher Wrap List End-->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--about_courses end-->  
+                      <div class="course-rating-outer">
+                        <!--Heading Wrap Start-->
+                                      <div class="iq_heading_1 iq_heading_2 text-left">
+                                          <h4>Course <span>Rating</span></h4>
+                                      </div>
+                                      <!--Heading Wrap End-->
+                                      <div class="course-rating">
+                                        <div class="course-rating-head">
+                                          <span><b>4.4/5.0</b></span>
+                                          <span>360 ratings</span>
+                                          <div class="rating_down">
+                                                      <div class="rating_up" style="width:100%;"></div>
+                                                  </div>
+                                        </div>
+                                        <div class="text">
+                                          <div class="course-progress">
+                                            <span class="pull-left">5 Stars</span>
+                                            <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    <span class="sr-only">70% Complete</span>
+                                  </div>
+                              </div>
+                                            <span class="pull-right">15</span>
+                                          </div>
+                                          <div class="course-progress">
+                                            <span class="pull-left">4 Stars</span>
+                                            <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    <span class="sr-only">70% Complete</span>
+                                  </div>
+                              </div>
+                                            <span class="pull-right">09</span>
+                                          </div>
+                                          <div class="course-progress">
+                                            <span class="pull-left">3 Stars</span>
+                                            <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                    <span class="sr-only">70% Complete</span>
+                                  </div>
+                              </div>
+                                            <span class="pull-right">03</span>
+                                          </div>
+                                          <div class="course-progress">
+                                            <span class="pull-left">2 Stars</span>
+                                            <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                    <span class="sr-only">70% Complete</span>
+                                  </div>
+                              </div>
+                                            <span class="pull-right">05</span>
+                                          </div>
+                                          <div class="course-progress">
+                                            <span class="pull-left">1 Stars</span>
+                                            <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                                    <span class="sr-only">70% Complete</span>
+                                  </div>
+                              </div>
+                                            <span class="pull-right">0</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                      </div>
+                                    <!--Feed Back Slider Start-->
+                      <div class="feedback-outer">
+                        <!--Heading Wrap Start-->
+                                      <div class="iq_heading_1 iq_heading_2 text-left">
+                                          <h4>Students’ s <span>Feedback</span></h4>
+                                      </div>
+                                      <!--Heading Wrap End-->
+                        <div class="feedback-wrap">
+                          <!--Feedback START-->
+                          <div class="col-sm-6">
+                            <div class="feedback">
+                              <div class="feedback-capstion">
+                                <figure>
+                                  <img src="extra-images/s_thumb.jpg" alt=""/>
+                                </figure>
+                                <h6>Anna Doe Says :</h6>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Feedback End-->
+                          <!--Feedback START-->
+                          <div class="col-sm-6">
+                            <div class="feedback">
+                              <div class="feedback-capstion">
+                                <figure>
+                                  <img src="extra-images/s_thumb.jpg" alt=""/>
+                                </figure>
+                                <h6>Anna Doe Says :</h6>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Feedback End-->
+                          <!--Feedback START-->
+                          <div class="col-sm-6">
+                            <div class="feedback">
+                              <div class="feedback-capstion">
+                                <figure>
+                                  <img src="extra-images/s_thumb.jpg" alt=""/>
+                                </figure>
+                                <h6>Anna Doe Says :</h6>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Feedback End-->
+                          <!--Feedback START-->
+                          <div class="col-sm-6">
+                            <div class="feedback">
+                              <div class="feedback-capstion">
+                                <figure>
+                                  <img src="extra-images/s_thumb.jpg" alt=""/>
+                                </figure>
+                                <h6>Anna Doe Says :</h6>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Feedback End-->
+                          <!--Feedback START-->
+                          <div class="col-sm-6">
+                            <div class="feedback">
+                              <div class="feedback-capstion">
+                                <figure>
+                                  <img src="extra-images/s_thumb.jpg" alt=""/>
+                                </figure>
+                                <h6>Anna Doe Says :</h6>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Feedback End-->
+                        </div>
+                      </div>	
+                      <!--Feed Back Slider End-->
+                    </div>
+                    <div class="col-md-4">
+                      <div class="aside-bar">
+                        <!--course_inrp_side_search START-->
+                        <div class="widget widget-search">
+                          <form class="iq-input">
+                                              <input placeholder="Search ..." type="text">
+                                              <label class="iq-input-icon"><input type="submit"></label>
+                                          </form>
+                        </div>
+                        <!--course_inrp_side_search end-->
+                        <!--course_inrp_side_description START-->
+                        <div class="widget course-description">
+                          <!--Widget Title Start-->
+                                          <h5 class="widget-title"><span>university</span> DESCRIPTION</h5>
+                                          <!--Widget Title End-->
+                          <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                          <ul class="course-lesson-list">
+                            <li>
+                              <a href="#">
+                                <span class="icon-level-up-arrow"></span>
+                              Level</a>
+                              Intermediate
+                            </li>
+                            <li>
+                              <a href="#">
+                                <span class="icon-signs">
+                                          <span class="path1"></span>
+                                          <span class="path2"></span>
+                                          <span class="path3"></span>
+                                          <span class="path4"></span>
+                                          <span class="path5"></span>
+                                          <span class="path6"></span>
+                                          <span class="path7"></span>
+                                          <span class="path8"></span>
+                                          <span class="path9"></span>
+                                          <span class="path10"></span>
+                                          <span class="path11"></span>
+                                          <span class="path12"></span>
+                                          <span class="path13"></span>
+                                          <span class="path14"></span>
+                                          <span class="path15"></span>
+                                        </span>
+                              Length</a>
+                              9 Weeks
+                            </li>
+                            <li>
+                              <a href="#">
+                                <span class="icon-translate">
+                                          <span class="path1"></span>
+                                          <span class="path2"></span>
+                                          <span class="path3"></span>
+                                          <span class="path4"></span>
+                                          <span class="path5"></span>
+                                        </span>
+                              Language</a>
+                              English
+                            </li>
+                            <li>
+                              <a href="#">
+                                <span class="icon-home">
+                                          <span class="path1"></span>
+                                          <span class="path2"></span>
+                                          <span class="path3"></span>
+                                        </span>
+                                      Institution</a>
+                              lorem Ipsum
+                            </li>
+                          </ul>
+                        </div>
+                        <!--course_inrp_side_description end-->
+                        <!--coures_instractor_area START-->
+                        <div class="widget coures_instractor_area">
+                          <div class="instractor_heading">
+                            <h5><a href="#">Enroll This Course</a></h5>
+                          </div>
+                          <h5><a href="#">INSTRUCTORS</a></h5>
+                          <div class="coures_instractor_thumb">
+                            <figure>
+                              <img src="extra-images/instractor.jpg" alt=""/>
+                            </figure>
+                            <div class="thumb_capstion">
+                              <h5><a href="#">Jonatahan James</a></h5>
+                              <p>Teacher of Computer</p>
+                            </div>
+                          </div>
+                        </div>
+                        <!--coures_instractor_area end-->
+                        <!--coures_archives start-->
+                        <div class="widget widget_archive">
+                          <!--Widget Title Start-->
+                                          <h5 class="widget-title"><span>our</span> Course</h5>
+                                          <!--Widget Title End-->
+                          <ul>
+                            <li>
+                              <a href="#">Politics & History</a><span>03</span>
+                            </li>
+                            <li>
+                              <a href="#">Journalism</a><span>01</span>
+                            </li>
+                            <li>
+                              <a href="#">Medical Sciences</a><span>03</span>
+                            </li>
+                            <li>
+                              <a href="#">Health</a><span>01</span>
+                            </li>
+                            <li>
+                              <a href="#">Sports</a><span>03</span>
+                            </li>
+                            <li>
+                              <a href="#">Atrs</a><span>02</span>
+                            </li>
+                            <li>
+                              <a href="#">Tourism & Culture</a><span>06</span>
+                            </li>
+                          </ul>
+                        </div>
+                        <!--coures_archives end-->
+                        <!--COURES CATEGORIES START-->
+                        <div class="widget widget_time">
+                          <!--Widget Title Start-->
+                                          <h5 class="widget-title"><span>working</span> hours</h5>
+                                          <!--Widget Title End-->
+                          <ul>
+                            <li>
+                              <span>Monday</span>08:30 am - 05:30 pm
+                            </li>
+                            <li>
+                              <span>Tuesday</span>08:30 am - 05:30 pm
+                            </li>
+                            <li>
+                              <span>Wednesday</span>08:30 am - 05:30 pm
+                            </li>
+                            <li>
+                              <span>Thursday</span>08:30 am - 05:30 pm
+                            </li>
+                            <li>
+                              <span>Friday</span>08:30 am - 05:30 pm
+                            </li>
+                            <li>
+                              <span>Saturday</span>Closed
+                            </li>
+                            <li>
+                              <span>Sunday</span>Closed
+                            </li>
+                          </ul>
+                        </div>
+                        <!--COURES CATEGORIES END-->
+                        <!--POPULAR START-->
+                        <div class="widget widget-popular">
+                          <!--Widget Title Start-->
+                                          <h5 class="widget-title"><span>popular</span>courses</h5>
+                                          <!--Widget Title End-->
+                          <!--POPULAR THUMB START-->
+                          <div class="popular_thumb">
+                            <figure>
+                              <img src="extra-images/popular-thumb5.jpg" alt=""/>
+                            </figure>
+                            <!--COURES POPULAR CAPSTION START-->
+                            <div class="overflow-text">
+                              <h6><a href="#">Professional Teching Course</a></h6>
+                              <!--RATING AREA START-->
+                              <div class="rating-wrap">
+                                                        <div class="rating_down">
+                                                            <div class="rating_up" style="width:100%;"></div>
+                                                        </div>
+                                                    </div>	
+                                                    <!--RATING AREA End-->							
+                              <p>Anna Doe</p>
+                              <span>$99.99</span>
+                              <!--COURES RATING AREA END-->
+                            </div>
+                            <!--COURES POPULAR CAPSTION END-->
+                          </div>
+                          <!--POPULAR THUMB END-->
+                          <!--POPULAR THUMB START-->
+                          <div class="popular_thumb">
+                            <figure>
+                              <img src="extra-images/popular-thumb2.jpg" alt=""/>
+                            </figure>
+                            <!--COURES POPULAR CAPSTION START-->
+                            <div class="overflow-text">
+                              <h6><a href="#">Professional Teching Course</a></h6>
+                              <!--RATING AREA START-->
+                              <div class="rating-wrap">
+                                                        <div class="rating_down">
+                                                            <div class="rating_up" style="width:100%;"></div>
+                                                        </div>
+                                                    </div>	
+                                                    <!--RATING AREA End-->							
+                              <p>Anna Doe</p>
+                              <span>$99.99</span>
+                              <!--COURES RATING AREA END-->
+                            </div>
+                            <!--COURES POPULAR CAPSTION END-->
+                          </div>
+                          <!--POPULAR THUMB END-->
+                          <!--POPULAR THUMB START-->
+                          <div class="popular_thumb">
+                            <figure>
+                              <img src="extra-images/popular-thumb3.jpg" alt=""/>
+                            </figure>
+                            <!--COURES POPULAR CAPSTION START-->
+                            <div class="overflow-text">
+                              <h6><a href="#">Professional Teching Course</a></h6>
+                              <!--RATING AREA START-->
+                              <div class="rating-wrap">
+                                                        <div class="rating_down">
+                                                            <div class="rating_up" style="width:100%;"></div>
+                                                        </div>
+                                                    </div>	
+                                                    <!--RATING AREA End-->							
+                              <p>Anna Doe</p>
+                              <span>$99.99</span>
+                            </div>
+                            <!--COURES POPULAR CAPSTION END-->
+                          </div>
+                          <!--POPULAR THUMB END-->
+                        </div>
+                        <!--POPULAR END-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!--coures_single_page end-->
+            </div>
+            </div>
+
+     
+           
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% load static %}
+
+<!DOCTYPE html>
+
+
+<html
+  lang="en"
+  class="light-style layout-menu-fixed"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="../assets/"
+  data-template="vertical-menu-template-free"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>InnovationAI Labs</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/fonts/boxicons.css' %}" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/css/core.css' %}" class="template-customizer-core-css" />
+    <link rel="stylesheet" href=".{% static 'assets/vendor/css/theme-default.css' %}" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="{% static 'assets/css/demo.css' %}" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'assets/vendor/libs/apex-charts/apex-charts.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'assets/vendor/css/pages/page-auth.css' %}" />
+
+
+    <link rel="stylesheet" href="{%static 'home/cssb\bootstrap.min.css'%}">
+  <link rel="stylesheet" href="{% static 'home/css/main.css' %}" />
+
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="../assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+
+
+        
+        <header>
+          <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
+            <div class="container-fluid"> 
+              
+              <a class="navbar-brand" href="{%url 'index'%}">
+                <img src="{% static 'home/images/ptilog.jpg'%}" alt="" id="ptilogo">   InnovationAI Labs
+              </a>        
+      
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="{%url 'index'%}">Home</a>
+                  </li>
+      
+          
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="{%url 'register-option'%}">Register</a>
+                  </li>
+      
+          
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="{%url 'signin'%}">Login</a>
+                  </li>
+      
+          
+                  
+      
+                  
+      
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      
+        <!-- Layout container -->
+        <div class="layout-page">
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+
+
+
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+             
+              <div class="row">
+                <br> <br> <br>
+
+                
+
+                <div class="col-lg-8 mb-4 order-0">
+
+                  <br> <br> <br> <br>
+
+                  <center>
+
+                    <h2>REGISTERATION OPTIONS</h2>
+    
+                   </center> 
+
+                
+                  <div class="card">
+
+                    
+
+                  
+                    <div class="d-flex align-items-end row">
+                      <div class="col-sm-7">
+                
+                      </div>
+                   
+                    </div>
+                  </div>
+                </div>
+
+                  <a href="{% url 'student-signup' %}" target="_blank" rel="noopener noreferrer">
+                <div class="col-lg-9 col-md-9 order-1">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 col-6 mb-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-title d-flex align-items-start justify-content-between">
+                            <div class="avatar flex-shrink-0">
+                              <h1 class="mb-2">👨‍🎓</h1>
+
+                              <!-- <img
+                                src="{% static 'assets/img/icons/unicons/chart-success.png' %}"
+                                alt="chart success"
+                                class="rounded"
+                              /> -->
+                            </div>
+                         
+                          </div>
+                          <!-- <span class="fw-semibold d-block mb-1">Student</span> -->
+                          <h3 class="card-title mb-2">Student</h3>
+                          <!-- <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +72.80%</small> -->
+                        </div>
+                      </div> 
+
+                    </a>
+
+
+
+                    </div> 
+
+                    
+                    <div class="col-lg-6 col-md-12 col-6 mb-4">
+
+                      <a href="{% url 'facilitator-signup' %}" target="_blank" rel="noopener noreferrer">
+
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-title d-flex align-items-start justify-content-between">
+                            <div class="avatar flex-shrink-0">
+                              <h1 class="mb-2">👨‍🏫</h1>
+
+                              <!-- <img
+                                src="{% static 'assets/img/icons/unicons/wallet-info.png' %}"
+                                alt="Credit Card"
+                                class="rounded"
+                              /> -->
+                            </div>
+                            <div class="dropdown">
+                       
+                          
+                            </div>
+                          </div>
+                          <!-- <span>Sales</span> -->
+                          <h3 class="card-title text-nowrap mb-1">Facilitator</h3>
+                          <!-- <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +28.42%</small> -->
+                        </div>
+                      </div> </a>
+                    </div> 
+                  </div>
+                </div>  
+                
+               
+
+   
+
+            <div class="content-backdrop fade"></div>
+          </div>
+              <div class="row">
+                <div class="col-lg-8 mb-4 order-0">
+                  <div class="card">
+                    <div class="d-flex align-items-end row">
+                      <div class="col-sm-7">
+                
+                      </div>
+                   
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9 col-md-9 order-1">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 col-6 mb-4">
+
+                      <a href="{% url 'sponsor-signup' %}" target="_blank" rel="noopener noreferrer">
+
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-title d-flex align-items-start justify-content-between">
+                            <div class="avatar flex-shrink-0">
+                              <h1 class="mb-2">👨‍⚖️</h1>
+
+                              <!-- <img
+                                src="{% static 'assets/img/icons/unicons/chart-success.png' %}"
+                                alt="chart success"
+                                class="rounded"
+                              /> -->
+                            </div>
+                            <div class="dropdown">
+                          
+                          
+                            </div>
+                          </div>
+                          <!-- <span class="fw-semibold d-block mb-1">Profit</span> -->
+                          <h3 class="card-title mb-2">Sponsor</h3>
+                          <!-- <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +72.80%</small> -->
+                        </div> </a>
+                      </div>
+                    </div>
+
+                  
+                  </div>
+                </div>  
+                
+               
+
+   
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <!-- / Layout wrapper -->
+
+
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="{% static 'assets/vendor/libs/jquery/jquery.js' %}"></script>
+    <script src="{% static 'assets/vendor/libs/popper/popper.js' %}"></script>
+    <script src="{% static 'assets/vendor/js/bootstrap.js' %}"></script>
+    <script src="{% static 'assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js' %}"></script>
+
+    <script src="{% static 'assets/vendor/js/menu.js' %}"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="{% static 'assets/vendor/libs/apex-charts/apexcharts.js' %}"></script>
+
+    <!-- Main JS -->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+
+    <!-- Page JS -->
+    <script src="{% static 'assets/js/dashboards-analytics.js' %}"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
+  </body>
+</html>

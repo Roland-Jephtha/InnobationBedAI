@@ -1,0 +1,96 @@
+{% extends 'dashboard/index.html' %}
+{% load static %}
+{% block content %}
+
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></span> Course Schedule</h4>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="nav nav-pills flex-column flex-md-row mb-3">
+
+                    <li class="nav-item">
+                      <a class="btn btn-primary" href="{% url 'schedule' %}"><i class="bx bx-time me-1"></i> Upcoming / Ongoing</a>
+                      <!-- <a class="btn btn-warning" href="{% url 'on_schedule' %}"><i class="bx bx-time me-1"></i> Ongoing Course</a> -->
+                      <a class="btn btn-success" href="{% url 'com_schedule' %}"><i class="bx bx-time me-1"></i> Completed </a>
+
+                    </li>
+             
+                
+                  </ul>
+                  <!-- <div class="card mb-4"> -->
+
+
+                    <form action="" method="post" enctype="multipart/form-data">
+
+
+                    <!-- Account -->
+       
+                    <hr class="my-0" />
+                    <!-- <div class="card-body"> -->
+                        <div class="row">
+                          
+                 
+                          <div class="mb-3 col-md-12">
+            
+                            <div class="container" id = "tablediv" >
+                                <table class="table table-striped table-bordered table-hover table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">S/N</th>
+                                            <th scope="col">Course </th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Duration in Hours</th>
+                                            <th scope="col">Video Link</th>
+                                   
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                        
+                                        {% for schedule in schedules %}
+                        
+                                <tr>
+                        
+                              
+                                    <td>{{forloop.counter}}</td>
+                        
+                                    <td> {{schedule.course_title}}</td>
+                        
+                                    <td>{{schedule.date}}</td>
+                                    <td>{{schedule.duration}}</td>
+                                    <td><a href="{% url 'schedule_link' schedule.course_title %}"> visit <i class="flex-shrink-0 bx bx-right-arrow me-2"></i></a></td>
+
+                        
+                      
+                                </tr>
+                        
+                                {% endfor %}
+                                </tbody>
+                                </table>
+                            </div>
+                          </div>
+             
+                          </div>
+                 
+                        </div>
+                  
+                    </div>
+                    <!-- /Account -->
+                  </div>
+
+
+                </form>
+
+                </div>
+              </div>
+            </div>
+            <!-- / Content -->
+
+
+            {% endblock content %}
