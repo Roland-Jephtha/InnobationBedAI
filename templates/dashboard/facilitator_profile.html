@@ -28,36 +28,11 @@
                     {% csrf_token %}
 
                     <!-- Account -->
-                    <div class="card-body">
-                      <div class="d-flex align-items-start align-items-sm-center gap-4">
-
-                        {% if profile.image %}
-                        <img
-                          src="{{profile.image.url}}"
-                          alt="user-avatar"
-                          class="d-block rounded"
-                          height="100"
-                          width="100"
-                          id="uploadedAvatar"
-                          
-                        />
-                        {% else %}
-
-                        <p>No Image Available</p>
-
-                        {% endif %}
-                        <div class="button-wrapper">
-                          <button type="submit" class="btn btn-primary me-2">Save changes</button>
-
-
-                       
-                        </div>
-                      </div>
-                    </div>
+              
                     <hr class="my-0" />
 
                     <center>
-                      <p class="text-muted mb-0">Allowed JPG, GIF or PNG. Max size of 800K</p>
+                      {% comment %} <p class="text-muted mb-0">Allowed JPG, GIF or PNG. Max size of 800K</p> {% endcomment %}
 
 
                       <h5 style="color:blue"><i class="bx bx-user me-1"></i>
@@ -65,19 +40,101 @@
 
                     </center>
                     <div class="card-body">
-                        <div class="row">
-                          
-                 
-                          <div class="mb-3 col-md-9">
-                            {{form}} 
+                      <div class="row">
 
-                          </div>
-          
-                        </div>
-                        <div class="mt-2">
+              
+
                        
+
+              
+                        <div class="mb-3 col-md-12">
+                          <label for="">Profile Image</label>
+                          <div class="col">
+                            <div class="py-2 px-1 border rounded">
+                                <label class="text-center" for="image1"
+                                >
+
+                                {% if profile.image %}
+
+                                    <img class="rounded" id="photo_1"  style="height:60px" src="{{profile.image.url}}" alt="upload" /></label
+                                
+                                  {% else %}
+
+                                  <img class="rounded" id="photo_1"  style="height:60px" src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg" alt="upload" /></label
+
+                                  {% endif %}
+                                    > 
+    
+                              {{form.image}} 
+                            
+                              
+                             
+                            </div>
+    
+                        </div> 
+                          
+                        <div class="mb-3 col-md-12">
+                          <label for=""> Full Name</label> <br>
+                        
+                              {{form.full_name}}
+            
+                        </div> 
+                        <div class="mb-3 col-md-12">
+                          <label for=""> Email</label> <br>
+                        
+                          {{form.email}} 
+                                     
+                        </div> 
+                        <div class="mb-3 col-md-12">
+                          <label for=""> Phone Number</label> <br>
+                        
+                          {{form.phone_number}} 
+                           
+                        </div> 
+                        <div class="mb-3 col-md-12">
+                          <label for=""> Address</label> <br>
+                        
+                          {{form.address}} 
+                                   
+                        </div> 
+                   
+                        <div class="mb-3 col-md-12">
+                          <label for=""> Course of Study</label> <br>
+                   
+                          {{form.course}} 
+                         
+            
+                        </div> 
+
+           
+                        <div class="mb-3 col-md-12">
+                          <label for=""> skillsets | Bio</label> <br>
+                        
+                          {{form.skillsets}}  
+            
+                        </div> 
+
+
+                          <br> 
+
+                        <center>
+
+                          <div class="mt-9">
+                            <button type="submit" class="btn btn-primary me-9">Save changes</button>
+                         
+                          </div>
+
+                        </center>
+                         <br>
+
+
+
+
                         </div>
-                    </div>
+           
+                        </div>
+               
+                      </div>
                     <!-- /Account -->
                   </div>
 

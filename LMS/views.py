@@ -255,12 +255,12 @@ def schedule_link(request, courses):
 
     course = get_object_or_404(Course, title = courses)
     schedule = get_object_or_404(Course_Schedule, course_title = course)
-    if schedule.is_purchased(request.user) :
+    if course.is_purchased(request.user) :
         profile = StudentProfile.objects.get(user = request.user)
         course_schedule = get_object_or_404(Course_Schedule, course_title = course)
         context = {
             "profile" : profile, 
-            "course_schedule" : course_schedule,
+            "course_schedule" : course_schedule, 
             } 
         
         return render(request, 'dashboard/schedule_link.html', context)

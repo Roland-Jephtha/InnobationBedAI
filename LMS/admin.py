@@ -28,6 +28,10 @@ class GrantAdmin(admin.ModelAdmin):
 class CourseAdmin(admin.ModelAdmin):
     list_display = ('title', 'course', 'price')
 
+
+class Course_ContentAdmin(admin.ModelAdmin):
+    list_display = ('title', 'course', 'link')
+
 admin.site.register(Grant, GrantAdmin)
 admin.site.register(CustomUser)
 admin.site.register(StudentProfile)
@@ -35,7 +39,7 @@ admin.site.register(SponsorProfile)
 admin.site.register(FacilitatorProfile)
 admin.site.register(Course, CourseAdmin)
 admin.site.register(Course_Schedule)
-admin.site.register(Course_Content)
+admin.site.register(Course_Content, Course_ContentAdmin)
 
 
 admin.site.site_header = "InnovationBed AI Labs"

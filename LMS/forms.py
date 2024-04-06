@@ -114,7 +114,7 @@ class SponsorProfileForm(forms.ModelForm):
     #Add css class
     def __init__(self, *args, **kwargs):
         super(SponsorProfileForm, self).__init__(*args, **kwargs)
-        self.fields['image'].widget.attrs.update({'class': 'form-control', 'id': 'upload'})
+        self.fields['image'].widget.attrs.update({'class': 'form-control d-none', 'id': 'image1', 'onchange': "displaySelectedImage(event, 'photo_1')"})
         self.fields['full_name'].widget.attrs.update({'class': 'form-control', 'id': 'upload'})
         self.fields['address'].widget.attrs.update({'class': 'form-control', 'id': 'upload'})
         self.fields['email'].widget.attrs.update({'class': 'form-control', })
@@ -135,7 +135,7 @@ class FacilitatorProfileForm(forms.ModelForm):
     #Add css class
     def __init__(self, *args, **kwargs):
         super(FacilitatorProfileForm, self).__init__(*args, **kwargs)
-        self.fields['image'].widget.attrs.update({'class': 'form-control', 'id': 'upload'})
+        self.fields['image'].widget.attrs.update({'class': 'form-control d-none', 'id': 'image1', 'onchange': "displaySelectedImage(event, 'photo_1')"})
         self.fields['full_name'].widget.attrs.update({'class': 'form-control', 'id': 'upload'})
         self.fields['address'].widget.attrs.update({'class': 'form-control', 'id': 'upload'})
         self.fields['email'].widget.attrs.update({'class': 'form-control'})
@@ -158,7 +158,7 @@ class StudentProfileForm(forms.ModelForm):
     #Add css class
     def __init__(self, *args, **kwargs):
         super(StudentProfileForm, self).__init__(*args, **kwargs)
-        self.fields['image'].widget.attrs.update({'class': 'form-control', 'id': 'upload'})
+        self.fields['image'].widget.attrs.update({'class': 'class="form-control d-none', 'id': 'image1', 'onchange': "displaySelectedImage(event, 'photo_1')"})
         self.fields['full_name'].widget.attrs.update({'class': 'form-control','id': 'upload'})
         self.fields['address'].widget.attrs.update({'class': 'form-control','id': 'upload'})
         self.fields['email'].widget.attrs.update({'class': 'form-control'})

@@ -57,6 +57,12 @@
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="{% static 'assets/js/config.js' %}"></script>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -119,12 +125,7 @@
               </a>
             </li>
             {% elif user.is_student == True %}
-            <li class="menu-item ">
-              <a href="{% url 'student_profile' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-user me-1"></i>
-                <div data-i18n="Analytics">Profile</div>
-              </a>
-            </li>
+      
 
             <li class="menu-item ">
               <a href="{% url 'courses' %}" class="menu-link" style="color:white;  ">
@@ -137,6 +138,13 @@
               <a href="{% url 'schedule' %}" class="menu-link" style="color:white; ">
                 <i class="bx bx-time me-1"></i>
                 <div data-i18n="Analytics">Course Schedule</div>
+              </a>
+            </li>
+
+            <li class="menu-item ">
+              <a href="{% url 'student_profile' %}" class="menu-link" style="color:white; ">
+                <i class="bx bx-user me-1"></i>
+                <div data-i18n="Analytics">Profile</div>
               </a>
             </li>
 
@@ -990,6 +998,51 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+           
+<script>
+  function handleSubmit(){
+      const form = document.getElementById('avatarform');
+      form.addEventListener('submit', (event) =>{
+          event.preventDefault();
+          
+      });
+      form.submit();
+
+      
+  }
+
+
+  function displaySelectedImage(event, elementId, ) {
+  const selectedImage = document.getElementById(elementId);
+  const fileInput = event.target;
+  // alert(selectedImage)
+
+  if (fileInput.files && fileInput.files[0]) {
+      const reader = new FileReader();
+
+      reader.onload = function(e) {
+          selectedImage.src = e.target.result;
+      };
+
+      reader.readAsDataURL(fileInput.files[0]);
+  }
+
+  }
+
+</script>
+
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
