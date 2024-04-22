@@ -10,12 +10,15 @@ urlpatterns = [
     path('', index, name='index'),
     path('sponsor_payment', sponsor_payment, name='sponsor_payment'),
     path('course_payment/<courses>', course_payment, name='course_payment'),
-    path('course_content/<str:pk>', course_content, name='course_content'),
+    path('course_content/<courses>', course_content, name='course_content'),
     path('states', states, name='states'),
     path('LGA', LGA, name='LGA'),
     path('institution', institution, name='institution'),
     path('department', department, name='department'),
     path('dashboard', dashboard, name='dashboard'),
+
+    path('get_filtered_course_content/', get_filtered_course_content, name='get_filtered_course_content'),
+    path('get_course_of_study/', get_course_of_study, name='get_course_of_study'),
 
     path('course_video/<courses>', course_video, name='course-video'),
     path('schedule_link/<courses>', schedule_link, name='schedule_link'),
@@ -26,7 +29,6 @@ urlpatterns = [
     path('confirm_course_sponsor', confirm_course_sponsor, name='confirm_course_sponsor'),
     path('schedule', student_schedule, name='schedule'),
     path('com_schedule', com_schedule, name='com_schedule'),
-    path('on_schedule', on_schedule, name='on_schedule'),
     path('grant/<courses>', grant, name='grant'),
     path('update_schedule/<str:pk>', UpdateSchedule.as_view(), name = 'update_schedule'),
 

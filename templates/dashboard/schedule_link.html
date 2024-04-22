@@ -66,13 +66,12 @@
       <div class="layout-container">
         <!-- Menu -->
 
-        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme" style="        background-color: rgb(17, 190, 17);
-;
-        ">
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-"  style="background-color:rgb(17, 190, 17); "
+; >
           <div class="app-brand demo">
             <a href="{% url 'dashboard' %}" class="app-brand-link">
-            
-              <h4 style="color:rgb(235, 235, 241); font-weight:bolder">InnovationbedAI Labs</h4>
+
+              <img src="{% static 'home/images/logo.png'%}" alt="" id="logo" style="  width: 15em;">   
             </a>
 
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -84,10 +83,12 @@
 
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
+      
+
             <li class="menu-item ">
               <a href="{% url 'dashboard' %}" class="menu-link" style="color:white; ">
-                <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                <div data-i18n="Analytics" >Dashboard</div>
+                <i class="bx bx-home-circle"></i>
+                                <div data-i18n="Analytics"> Dashboard</div>
               </a>
             </li>
 
@@ -113,28 +114,13 @@
               </a>
             </li>
             <li class="menu-item ">
-              <a href="{% url 'sponsor' %}" class="menu-link" style="color:white; ">
+              <a href="{% url 'sponsor_payment' %}" class="menu-link" style="color:white; ">
                 <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
                 <div data-i18n="Analytics">Sponsor</div>
               </a>
             </li>
             {% elif user.is_student == True %}
-            <li class="menu-item ">
-              <a href="{% url 'student_profile' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-user me-1"></i>
-                <div data-i18n="Analytics">Profile</div>
-              </a>
-            </li>
-            <li class="menu-item ">
-              <a href="{% url 'schedule' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-time me-1"></i>
-                <div data-i18n="Analytics">Course Schedule</div>
-              </a>
-            </li>
-
-
-
-
+      
 
             <li class="menu-item ">
               <a href="{% url 'courses' %}" class="menu-link" style="color:white;  ">
@@ -142,7 +128,26 @@
                 <div data-i18n="Analytics">My Courses</div>
               </a>
             </li>
-    
+
+            <li class="menu-item ">
+              <a href="{% url 'schedule' %}" class="menu-link" style="color:white; ">
+                <i class="bx bx-time me-1"></i>
+                <div data-i18n="Analytics">Course Schedule</div>
+              </a>
+            </li>
+
+            <li class="menu-item ">
+              <a href="{% url 'student_profile' %}" class="menu-link" style="color:white; ">
+                <i class="bx bx-user me-1"></i>
+                <div data-i18n="Analytics">Profile</div>
+              </a>
+            </li>
+
+
+
+
+
+     
       
 
             {% endif %}

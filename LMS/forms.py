@@ -53,7 +53,7 @@ class CourseScheduleForm(forms.ModelForm):
         course_of_study = forms.CharField(widget=SuggestionInput)
 
         model = Course_Schedule
-        fields  = ['course_title','date', 'duration','link', 'course_of_study', 'facilitator']
+        fields  = ['course_title','course_content','date', 'duration','link', 'course_of_study', 'facilitator', 'paid']
         
         
         widgets = {
@@ -65,18 +65,20 @@ class CourseScheduleForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super(CourseScheduleForm, self).__init__(*args, **kwargs)
         self.fields['course_title'].widget.attrs.update({'class': 'form-control'})
-        self.fields['course_of_study'].widget.attrs.update({'class': 'form-control'})
+        self.fields['course_content'].widget.attrs.update({'class': 'form-control'})
+        self.fields['course_of_study'].widget.attrs.update({'class': 'form-control hidden'})
         self.fields['date'].widget.attrs.update({'class': 'form-control'})
         self.fields['duration'].widget.attrs.update({'class': 'form-control'})
         self.fields['link'].widget.attrs.update({'class': 'form-control'})
         self.fields['facilitator'].widget.attrs.update({'class': 'hidden',})
+        self.fields['paid'].widget.attrs.update({'class': 'hidden',})
 
     
-    def clean_course_title(self):
-        course_title = self.cleaned_data['course_title']
-        if Course_Schedule.objects.filter(course_title=course_title).exists():
+    def clean_course_content(self):
+        course_content = self.cleaned_data['course_content']
+        if Course_Schedule.objects.filter(course_content=course_content).exists():
             raise forms.ValidationError("A course with this title already exists.")
-        return course_title
+        return course_content
 
         
         
@@ -97,6 +99,7 @@ class GrantForm(forms.ModelForm):
         self.fields['date'].widget.attrs.update({'class': 'form-control'})
         self.fields['description'].widget.attrs.update({'class': 'form-control'})
         self.fields['course_title'].widget.attrs.update({'class': 'form-control'})
+        self.fields['course_title'].widget.attrs['readonly'] = True
         self.fields['student'].widget.attrs.update({'class': 'hidden',})
 
 

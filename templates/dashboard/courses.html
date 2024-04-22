@@ -7,7 +7,7 @@
 
             <div class="container-xxl flex-grow-1 container-p-y">
              <center>
-              <h1 class="fw-bold py-3 mb-4" style = "  font-family: 'Sofia', cursive;"><span class="text-muted fw-light"></span >My Courses</h1>
+              <h1 class="fw-bold py-3 mb-4" ><span class="text-muted fw-light"></span >My Courses</h1>
              </center> 
 
               <!-- Examples -->
@@ -19,11 +19,11 @@
                 <div class="col-md-6 col-lg-3 mb-3">
                
 
-                  <a href="{% url 'course-video' course.title %}">
+                  <a href="{% url 'course-video' course.title %}" style="text-decoration: none;">
 
 
-                  <div class="card h-60">
-                    <img class="card-img-top" src="{{course.image.url}}" alt="Card image cap" style="height: 10em;" />
+                  <div class="card h-60" id="course-con">
+                    <img class="card-img-top" src="{{course.image.url}}" alt="Card image cap" style="height: 10em;" id="img"/>
                     <div class="card-body">
                       <h5 class="card-title">{{course.title}}         
                         </h5>
@@ -45,15 +45,15 @@
                 <div class="col-md-6 col-lg-3 mb-3">
                
 
-                  <a href="{% url 'course-video' course.title %}">
+                  <a href="{% url 'course-video' course.title %}" style="text-decoration: none;">
 
 
-                  <div class="card h-100">
-                    <img class="card-img-top" src="{{course.image.url}}" alt="Card image cap" style="height: 10em;" />
+                  <div class="card h-100" id="course-con">
+                    <img class="card-img-top" src="{{course.image.url}}" alt="Card image cap" style="height: 10em;" id="img"/>
                     <div class="card-body">
                       <h5 class="card-title">{{course.title}}         
                          {% if course.paid == True %}
-                      <small style="size: 7px; color:rgb(10, 199, 10)">
+                      <br><small style="size: 7px; color:rgb(10, 199, 10)">
                         (Premium Course)                     
                     </small>
                       {% endif %}</h5>

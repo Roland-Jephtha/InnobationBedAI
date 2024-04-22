@@ -24,26 +24,26 @@ from django.views.decorators.http import require_GET
 from django.views.generic.edit import UpdateView
 
 
-
-# Create your views here.
-
-# @require_GET
-# def get_admin_suggestions(request):
-#     if request.method == 'GET':
-#         input_text = request.GET.get('input', '')  # Retrieve the input text from the query parameters
-#         suggestions = Grant.objects.filter(course_title__icontains=input_text).values_list('course_title', flat=True)
-#         return JsonResponse({'suggestions': list(suggestions)})
-#     else:
-#         return JsonResponse({'error': 'Only GET requests are allowed for this endpoint'}, status=405)
-    
-
-
-
-
-
 from django.shortcuts import render
 from django.http import JsonResponse
 import os
+from .models import Course_Content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def get_suggestions(request):
     input_text = request.GET.get('input', '')
@@ -94,8 +94,8 @@ def institution(request):
 
 
 def index(request):
-    sponsors = SponsorProfile.objects.all()
-    courses = Course.objects.all()
+    sponsors = SponsorProfile.objects.all()[0:15]
+    courses = Course.objects.all()[0:6]
     context = {
         'sponsors': sponsors,
         'courses' : courses
@@ -104,6 +104,7 @@ def index(request):
 
 
 
+@login_required(login_url="signin")
 def grant(request, courses):
     profile = StudentProfile.objects.get(user = request.user)
     course = get_object_or_404(Course, title = courses)
@@ -170,14 +171,20 @@ def courses(request):
 
 
 @login_required(login_url="signin")
-def course_content(request, pk):
-    course_content = Course_Content.objects.get(id = pk)
+def course_content(request, courses):
+    # course = get_object_or_404(Course, title = courses)
+    course_content = Course_Content.objects.get(title = courses)
     profile = StudentProfile.objects.get(user = request.user)
+    courses = Course_Content.objects.filter(course = course_content.course)
+
+
+
 
   
     context = {
     "profile" : profile, 
     "course_content" : course_content,
+    "courses" : courses,
 
     } 
     return render(request, 'dashboard/course_content.html', context)
@@ -188,6 +195,7 @@ def course_content(request, pk):
     
 @login_required(login_url="signin")
 def course_video(request, courses):
+    course = get_object_or_404(Course, title = courses)
     course = get_object_or_404(Course, title = courses)
     profile = StudentProfile.objects.get(user = request.user)
     print(course.title)
@@ -234,6 +242,8 @@ def course_video(request, courses):
 
 
 
+@login_required(login_url="signin")
+
 def confirm_course_payment(request, courses):
     course = get_object_or_404(Course, title = courses)
     student_profile, created = StudentProfile.objects.get_or_create(user = request.user)
@@ -252,18 +262,30 @@ def confirm_course_payment(request, courses):
 
 @login_required(login_url="signin")
 def schedule_link(request, courses):
-
-    course = get_object_or_404(Course, title = courses)
-    schedule = get_object_or_404(Course_Schedule, course_title = course)
+    course_content = Course_Content.objects.get(title = courses)
+    schedule = Course_Schedule.objects.get(course_content = course_content)
+    course = get_object_or_404(Course, title = schedule.course_title)
     if course.is_purchased(request.user) :
         profile = StudentProfile.objects.get(user = request.user)
-        course_schedule = get_object_or_404(Course_Schedule, course_title = course)
+        course_schedule = get_object_or_404(Course_Schedule, course_content = schedule.course_content)
         context = {
             "profile" : profile, 
             "course_schedule" : course_schedule, 
             } 
         
         return render(request, 'dashboard/schedule_link.html', context)
+    
+
+    elif schedule.paid == False:
+        profile = StudentProfile.objects.get(user = request.user)
+        course_schedule = get_object_or_404(Course_Schedule, course_content = schedule.course_content)
+        context = {
+            "profile" : profile, 
+            "course_schedule" : course_schedule, 
+            } 
+        
+        return render(request, 'dashboard/schedule_link.html', context)
+
     else:
         messages.error(request, 'Oops You have not registered for that course!')
         return redirect('com_schedule')
@@ -320,16 +342,18 @@ def course_payment(request, courses):
 
 
 @login_required(login_url="signin")
-
 def student_schedule(request):
+
+
     profile = StudentProfile.objects.get(user = request.user)
     base_url = request.build_absolute_uri('/')
     com_date = timezone.datetime.now()
     schedules = Course_Schedule.objects.filter(date__gt = com_date).filter(course_of_study = profile.course)
-
+    general = Course_Schedule.objects.filter(date__gt = com_date).filter(course_of_study = 'general')
 
     context = {
         'schedules' : schedules,
+        'general' : general,
         'profile' : profile,
     }
 
@@ -344,34 +368,59 @@ def student_schedule(request):
 
 
 
-def on_schedule(request):
-    profile = StudentProfile.objects.get(user = request.user)
-    base_url = request.build_absolute_uri('/')
-    com_date = timezone.datetime.now()
-    schedules = Course_Schedule.objects.filter(date__gt = com_date).filter(course_of_study = profile.course)
 
-    context = {
-        'schedules' : schedules,
-        'profile' : profile,
-    }
-
-    return render(request, 'dashboard/on_schedule.html', context )
-
-
+@login_required(login_url="signin")
 def com_schedule(request):
     profile = StudentProfile.objects.get(user = request.user)
     base_url = request.build_absolute_uri('/')
     com_date = timezone.datetime.now()
     schedules = Course_Schedule.objects.filter(date__lt = com_date).filter(course_of_study =  profile.course) #created time is lesser than now, meaning the created time has passed
-
-
+    general = Course_Schedule.objects.filter(date__lt = com_date).filter(course_of_study = 'general')
 
     context = {
         'schedules' : schedules,
+        'general' : general,
         'profile' : profile,
     }
 
     return render(request, 'dashboard/com_schedule.html', context )
+
+
+
+
+
+
+
+
+
+
+
+
+
+def get_filtered_course_content(request):
+    course_title_id = request.GET.get('course_title_id')
+
+    # Filter course content based on the selected course title ID
+    if course_title_id:
+        course_content = Course_Content.objects.filter(course=course_title_id)
+        data = [{'id': content.id, 'name': content.title} for content in course_content]
+    else:
+        data = []
+
+    return JsonResponse(data, safe=False)
+
+
+
+def get_course_of_study(request):
+    course_title_id = request.GET.get('course_title_id')
+    course = Course.objects.filter(id=course_title_id).first()
+    course_of_study = course.course if course else ''
+    paid = course.paid if course else ''
+    return JsonResponse({'course_of_study': course_of_study, 'paid':paid})
+
+
+
+
 
 
 
@@ -390,17 +439,19 @@ def course_schedule(request):
         form = CourseScheduleForm(request.POST)
         if form.is_valid():
             course_title = form.cleaned_data.get("course_title")
+            course_content = form.cleaned_data.get("course_content")
             date = form.cleaned_data.get("date")
             duration = form.cleaned_data.get("duration")
             course_of_study = form.cleaned_data.get("course_of_study")
+            paid = form.cleaned_data.get("paid")
             form.save()
             messages.success(request, 'Course Schedule has been Added')
-        else:
-            messages.error(request, 'Error during Submission (The course title already exists)')
+
 
 
    
     form = CourseScheduleForm(initial=initial_data)
+
     context = {
         "form" : form, 
         "profile" : profile, 
@@ -408,6 +459,8 @@ def course_schedule(request):
         "course_video" : course_video,
         } 
     return render(request, 'dashboard/course_schedule.html', context)
+
+
 
 
 @login_required(login_url="signin")
@@ -422,13 +475,16 @@ def com_course_schedule(request):
     if request.method == "POST":
         form = CourseScheduleForm(request.POST)
         if form.is_valid():
-            user= profile
-            course = form.cleaned_data.get("course")
+            course_title = form.cleaned_data.get("course_title")
+            course_content = form.cleaned_data.get("course_content")
             date = form.cleaned_data.get("date")
             duration = form.cleaned_data.get("duration")
+            course_of_study = form.cleaned_data.get("course_of_study")
             form.save()
             messages.success(request, 'Course Schedule has been Added')
    
+
+
     form = CourseScheduleForm(initial=initial_data)
     context = {
         "form" : form, 
@@ -436,7 +492,10 @@ def com_course_schedule(request):
         "schedules" : schedules, 
         "course_video" : course_video,
         } 
+    
+
     return render(request, 'dashboard/com_course_schedule.html', context)
+
 
 
 
@@ -542,6 +601,7 @@ def sponsor_update_profile(request):
     return render(request, "dashboard/sponsor_profile.html", context)
 
 
+@login_required(login_url="signin")
 def student_update_profile(request):
     profile = get_object_or_404(StudentProfile, user = request.user)
 
@@ -568,6 +628,8 @@ def student_update_profile(request):
     return render(request, "dashboard/student_profile.html", context)
 
 
+
+@login_required(login_url="signin")
 def facilitator_update_profile(request):
     profile = get_object_or_404(FacilitatorProfile, user = request.user)
 
@@ -810,6 +872,7 @@ def sponsor_signup(request):
 #     return redirect('dashboard')
 
 
+@login_required(login_url="signin")
 def confirm_course_sponsor(request):
     # student_profile = StudentProfile.objects.get(user = request.user)
     # student_profile.paid = True

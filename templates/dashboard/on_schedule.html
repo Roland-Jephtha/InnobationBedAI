@@ -64,7 +64,9 @@
                         
                                     <td>{{schedule.date}}</td>
                                     <td>{{schedule.duration}}</td>
-                                    <td><a href="{% url 'schedule_link' schedule.id %}"> visit <i class="flex-shrink-0 bx bx-right-arrow me-2"></i></a></td>
+                                    <td><a href="{{schedule.link}}">{{schedule.link}}</a></td>
+
+                                    {% comment %} <td><a href="{% url 'schedule_link' schedule.id %}"> visit <i class="flex-shrink-0 bx bx-right-arrow me-2"></i></a></td> {% endcomment %}
 
                         
                       

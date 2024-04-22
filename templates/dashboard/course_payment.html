@@ -66,98 +66,103 @@
       <div class="layout-container">
         <!-- Menu -->
 
-        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme" style="        background-color: rgb(17, 190, 17);
-;
-        ">
-          <div class="app-brand demo">
-            <a href="{% url 'dashboard' %}" class="app-brand-link">
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-"  style="background-color:rgb(17, 190, 17); "
+        ; >
+                  <div class="app-brand demo">
+                    <a href="{% url 'dashboard' %}" class="app-brand-link">
+        
+                      <img src="{% static 'home/images/logo.png'%}" alt="" id="logo" style="  width: 15em;">   
+                    </a>
+        
+                    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+                      <i class="bx bx-chevron-left bx-sm align-middle"></i>
+                    </a>
+                  </div>
+        
+                  <div class="menu-inner-shadow"></div>
+        
+                  <ul class="menu-inner py-1">
+                    <!-- Dashboard -->
+              
+        
+                    <li class="menu-item ">
+                      <a href="{% url 'dashboard' %}" class="menu-link"  id = "a-link">
+                        <i class="bx bx-home-circle"></i>
+                                        <div data-i18n="Analytics"> Dashboard</div>
+                      </a>
+                    </li>
+        
+                    {% if user.is_facilitator == True %}
+                    <li class="menu-item ">
+                      <a href="{% url 'course_schedule' %}" class="menu-link"  id = "a-link">
+                        <i class="bx bx-laptop me-1"></i>
+                                        <div data-i18n="Analytics">Schedule Courses</div>
+                      </a>
+                    </li>
+                    <li class="menu-item ">
+                      <a href="{% url 'facilitator_profile' %}" class="menu-link"  id = "a-link">
+                        <i class="bx bx-user me-1"></i>
+                                        <div data-i18n="Analytics">Profile</div>
+                      </a>
+                    </li>
+        
+                    {% elif user.is_sponsor == True %}
+                    <li class="menu-item ">
+                      <a href="{% url 'sponsor_profile' %}" class="menu-link"  id = "a-link">
+                        <i class="bx bx-user me-1"></i>
+                        <div data-i18n="Analytics">Profile</div>
+                      </a>
+                    </li>
+                    <li class="menu-item ">
+                      <a href="{% url 'sponsor_payment' %}" class="menu-link" id = "a-link">
+                        <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
+                        <div data-i18n="Analytics">Sponsor</div>
+                      </a>
+                    </li>
+                    {% elif user.is_student == True %}
+              
+        
+                    <li class="menu-item ">
+                      <a href="{% url 'courses' %}" class="menu-link"   id = "a-link">
+                        <i class="bx bx-laptop me-1"></i>
+                        <div data-i18n="Analytics">My Courses</div>
+                      </a>
+                    </li>
+        
+                    <li class="menu-item ">
+                      <a href="{% url 'schedule' %}" class="menu-link" id = "a-link">
+                        <i class="bx bx-time me-1"></i>
+                        <div data-i18n="Analytics">Course Schedule</div>
+                      </a>
+                    </li>
+        
+                    <li class="menu-item ">
+                      <a href="{% url 'student_profile' %}" class="menu-link"   id = "a-link">
+                        <i class="bx bx-user me-1"></i>
+                        <div data-i18n="Analytics">Profile</div>
+                      </a>
+                    </li>
+        
+        
+        
+        
+        
+             
+              
+        
+                    {% endif %}
+        
+                    <li class="menu-item ">
+                      <a href="{% url 'signout' %}" class="menu-link"  id = "a-link">
+                        <i class="bx bx-power-off me-2"></i>
+                            <div data-i18n="Analytics">Log Out</div>
+                      </a>
+                    </li>
+        
             
-              <h4 style="color:rgb(235, 235, 241); font-weight:bolder">InnovationbedAI Labs</h4>
-            </a>
-
-            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
-              <i class="bx bx-chevron-left bx-sm align-middle"></i>
-            </a>
-          </div>
-
-          <div class="menu-inner-shadow"></div>
-
-          <ul class="menu-inner py-1">
-            <!-- Dashboard -->
-            <li class="menu-item ">
-              <a href="{% url 'dashboard' %}" class="menu-link" style="color:white; ">
-                <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                <div data-i18n="Analytics" >Dashboard</div>
-              </a>
-            </li>
-
-            {% if user.is_facilitator == True %}
-            <li class="menu-item ">
-              <a href="{% url 'course_schedule' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-laptop me-1"></i>
-                                <div data-i18n="Analytics">Schedule Courses</div>
-              </a>
-            </li>
-            <li class="menu-item ">
-              <a href="{% url 'facilitator_profile' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-user me-1"></i>
-                                <div data-i18n="Analytics">Profile</div>
-              </a>
-            </li>
-
-            {% elif user.is_sponsor == True %}
-            <li class="menu-item ">
-              <a href="{% url 'sponsor_profile' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-user me-1"></i>
-                <div data-i18n="Analytics">Profile</div>
-              </a>
-            </li>
-            <li class="menu-item ">
-              <a href="{% url 'sponsor' %}" class="menu-link" style="color:white; ">
-                <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
-                <div data-i18n="Analytics">Sponsor</div>
-              </a>
-            </li>
-            {% elif user.is_student == True %}
-            <li class="menu-item ">
-              <a href="{% url 'student_profile' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-user me-1"></i>
-                <div data-i18n="Analytics">Profile</div>
-              </a>
-            </li>
-            <li class="menu-item ">
-              <a href="{% url 'schedule' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-time me-1"></i>
-                <div data-i18n="Analytics">Course Schedule</div>
-              </a>
-            </li>
-
-
-
-
-
-            <li class="menu-item ">
-              <a href="{% url 'courses' %}" class="menu-link" style="color:white;  ">
-                <i class="bx bx-laptop me-1"></i>
-                <div data-i18n="Analytics">My Courses</div>
-              </a>
-            </li>
-    
-      
-
-            {% endif %}
-
-            <li class="menu-item ">
-              <a href="{% url 'signout' %}" class="menu-link" style="color:white; ">
-                <i class="bx bx-power-off me-2"></i>
-                    <div data-i18n="Analytics">Log Out</div>
-              </a>
-            </li>
-
-    
-       
-          </ul>
-        </aside>
+               
+                  </ul>
+                </aside>
         <!-- / Menu -->
 
         <!-- Layout container -->
@@ -165,9 +170,9 @@
           <!-- Navbar -->
 
           <nav
-            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
-            id="layout-navbar" style=" background-color:white"
-          >
+          class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+          id="layout-navbar" style=" background-color:white; box-shadow:2px 2px 2px 2px rgb(240, 236, 236)"
+        >
             <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none" >
               <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
                 <i class="bx bx-menu bx-sm"></i>
@@ -388,7 +393,7 @@
                                         <input type="hidden" name="public_key" value="FLWPUBK-132125a85ca502b4983f78ee36421b30-X" />
                                         <input type="hidden" name="customer[email]" value="{{profile.email}}" />
                                         <input type="hidden" name="customer[name]" value="{{profile.full_name}} (Student)" />
-                                        <input type="hidden" name="tx_ref" value="" />
+                                        <input type="hidden" name="tx_ref" value="txref-81123" />
                                         <input type="hidden" name="amount" value="{{course.price}}" />
                                         <input type="hidden" name="currency" value="NGN" />
                                         <input type="hidden" name="meta[source]" value="docs-html-test" />

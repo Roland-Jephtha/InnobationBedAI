@@ -125,7 +125,7 @@ class Course(models.Model):
     image = models.ImageField(null=True,  upload_to="course/")
     link = models.URLField(max_length = 255, null = True, )
     description = models.TextField(null = True, )
-    course = models.CharField(max_length = 255, null = True, default = "general")
+    course = models.CharField(max_length = 255, null = True, default = "General")
     price = models.IntegerField(max_length = 255, null = True, blank = True)
     paid = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True, null  = True)
@@ -157,10 +157,12 @@ class Course_Content(models.Model):
 class Course_Schedule(models.Model):
     facilitator = models.ForeignKey(FacilitatorProfile, on_delete=models.CASCADE, null = True )
     course_title = models.ForeignKey(Course, on_delete = models.CASCADE, null = True, )
+    course_content = models.ForeignKey(Course_Content, on_delete = models.CASCADE, null = True, )
     duration = models.IntegerField(max_length = 255, null = True)
     link = models.URLField(max_length = 255, null = True)
     course_of_study = models.CharField(max_length = 255, null = True)
     date = models.DateTimeField( null = True)
+    paid = models.BooleanField(default=False, null = True)
     created = models.DateTimeField(auto_now_add=True, null  = True)
 
 

@@ -32,13 +32,16 @@ class CourseAdmin(admin.ModelAdmin):
 class Course_ContentAdmin(admin.ModelAdmin):
     list_display = ('title', 'course', 'link')
 
+class Course_ScheduleAdmin(admin.ModelAdmin):
+    list_display = ('course_title', 'course_content', 'link')
+
 admin.site.register(Grant, GrantAdmin)
 admin.site.register(CustomUser)
 admin.site.register(StudentProfile)
 admin.site.register(SponsorProfile)
 admin.site.register(FacilitatorProfile)
 admin.site.register(Course, CourseAdmin)
-admin.site.register(Course_Schedule)
+admin.site.register(Course_Schedule, Course_ScheduleAdmin)
 admin.site.register(Course_Content, Course_ContentAdmin)
 
 

@@ -50,7 +50,7 @@
     <link rel="stylesheet" href="{% static 'assets/vendor/css/pages/page-auth.css' %}" />
 
 
-    <link rel="stylesheet" href="{%static 'home/cssb\bootstrap.min.css'%}">
+    {% comment %} <link rel="stylesheet" href="{%static 'home/cssb/bootstrap.min.css'%}"> {% endcomment %}
   <link rel="stylesheet" href="{% static 'home/css/main.css' %}" />
 
 
@@ -72,11 +72,11 @@
 
         
         <header>
-          <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar" style="background-color: rgb(19, 207, 19);">
             <div class="container-fluid"> 
               
               <a class="navbar-brand" href="{%url 'index'%}">
-                <img src="{% static 'home/images/ptilog.jpg'%}" alt="" id="ptilogo">   InnovationbedAI Labs
+                <img src="{% static 'home/images/logo.png'%}" alt="" id="logo">   
               </a>        
       
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
